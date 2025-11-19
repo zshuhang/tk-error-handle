@@ -1,0 +1,368 @@
+{
+  "base_resp": {
+    "code": 0,
+    "message": "success"
+  },
+  "picture_check_result": {
+    "check_result_map": [
+      {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=ABAwBeOPij3JiFcUu82xQQFz%2FLY%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=TH6WsPWSq7pgDTKyMMc60OGQ3XM%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      {
+        "check_type": 2,
+        "picture_tags": [
+          {
+            "key": "SIZE_PIC",
+            "value": ""
+          }
+        ],
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=cBBVmH5oO29RIoBoZ5tky75kRGE%3D",
+        "recognition_result_items": [
+          {
+            "actions": [
+              1001
+            ],
+            "pic_rec_id": "0",
+            "rec_time_ms": "1763539590865",
+            "recognitionAlgorithm": 0,
+            "score": 1,
+            "status": 2,
+            "type": 1003,
+            "value": "{}"
+          }
+        ]
+      },
+      {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=0LFofkEujSDw3Z9sn7mU6KuZbBM%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=l8s2qAc7n0y7rcElNly27eckrUs%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      {
+        "check_type": 3,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=5T2%2FEkjb5AN04DdoFx4jdFBQ784%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=aCQKqXut1Kni86UapaVyldgQEoI%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      }
+    ],
+    "uri_to_check_result_map": {
+      "tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0": {
+        "check_type": 2,
+        "picture_tags": [
+          {
+            "key": "SIZE_PIC",
+            "value": ""
+          }
+        ],
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=cBBVmH5oO29RIoBoZ5tky75kRGE%3D",
+        "recognition_result_items": [
+          {
+            "actions": [
+              1001
+            ],
+            "pic_rec_id": "0",
+            "rec_time_ms": "1763539590865",
+            "recognitionAlgorithm": 0,
+            "score": 1,
+            "status": 2,
+            "type": 1003,
+            "value": "{}"
+          }
+        ]
+      },
+      "tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748": {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=0LFofkEujSDw3Z9sn7mU6KuZbBM%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b": {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=l8s2qAc7n0y7rcElNly27eckrUs%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b": {
+        "check_type": 3,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=5T2%2FEkjb5AN04DdoFx4jdFBQ784%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850": {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=aCQKqXut1Kni86UapaVyldgQEoI%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174": {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=ABAwBeOPij3JiFcUu82xQQFz%2FLY%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6": {
+        "check_type": 1,
+        "picture_uri": "tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=TH6WsPWSq7pgDTKyMMc60OGQ3XM%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-cn-i-auk9ndhfmu/2114bc4b7aa24ecbb11f2d1cbe8821a0": {
+        "picture_tags": [
+          {
+            "key": "SIZE_PIC",
+            "value": ""
+          }
+        ],
+        "picture_uri": "tos-cn-i-auk9ndhfmu/2114bc4b7aa24ecbb11f2d1cbe8821a0",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=cBBVmH5oO29RIoBoZ5tky75kRGE%3D",
+        "recognition_result_items": [
+          {
+            "actions": [
+              1001
+            ],
+            "pic_rec_id": "0",
+            "rec_time_ms": "1763539590865",
+            "recognitionAlgorithm": 0,
+            "score": 1,
+            "status": 2,
+            "type": 1003,
+            "value": "{}"
+          }
+        ]
+      },
+      "tos-cn-i-auk9ndhfmu/5b33c50e1f9d427594f84280925f5748": {
+        "picture_uri": "tos-cn-i-auk9ndhfmu/5b33c50e1f9d427594f84280925f5748",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=0LFofkEujSDw3Z9sn7mU6KuZbBM%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-cn-i-auk9ndhfmu/99126d2281ee44ef99f954dd3273d58b": {
+        "picture_uri": "tos-cn-i-auk9ndhfmu/99126d2281ee44ef99f954dd3273d58b",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=l8s2qAc7n0y7rcElNly27eckrUs%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-cn-i-auk9ndhfmu/9ccc8cf301ec48f2b1c1b7cffe40323b": {
+        "picture_uri": "tos-cn-i-auk9ndhfmu/9ccc8cf301ec48f2b1c1b7cffe40323b",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=5T2%2FEkjb5AN04DdoFx4jdFBQ784%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-cn-i-auk9ndhfmu/c2611f5cc1e0442b9d95104d42e84850": {
+        "picture_uri": "tos-cn-i-auk9ndhfmu/c2611f5cc1e0442b9d95104d42e84850",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=aCQKqXut1Kni86UapaVyldgQEoI%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-cn-i-auk9ndhfmu/db24d15f58424436b81c7581f0c88174": {
+        "picture_uri": "tos-cn-i-auk9ndhfmu/db24d15f58424436b81c7581f0c88174",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=ABAwBeOPij3JiFcUu82xQQFz%2FLY%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      },
+      "tos-cn-i-auk9ndhfmu/f0547b7711634a579e9c2468bae9d4d6": {
+        "picture_uri": "tos-cn-i-auk9ndhfmu/f0547b7711634a579e9c2468bae9d4d6",
+        "picture_url": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6~tplv-f7lenjegsh-origin-image-v1.image?rk3s=970ba40d\u0026x-expires=1771315590\u0026x-signature=TH6WsPWSq7pgDTKyMMc60OGQ3XM%3D",
+        "recognition_result_items": [
+          {
+            "actions": [],
+            "pic_rec_id": "0",
+            "rec_time_ms": "0",
+            "recognitionAlgorithm": 0,
+            "score": 0,
+            "status": 2,
+            "type": 0
+          }
+        ]
+      }
+    }
+  }
+}

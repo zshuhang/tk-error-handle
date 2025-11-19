@@ -1,0 +1,2458 @@
+{
+  "base_resp": {
+    "code": 0,
+    "message": ""
+  },
+  "feecback_content": {},
+  "info": {
+    "editable_module": [
+      {
+        "editable_content": [
+          {
+            "content": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=o4hKoaHLxIqNWXyqUvIuak4HT8E%3D",
+            "content_type": 5
+          }
+        ],
+        "module_type": 6,
+        "note": "尺寸图可能不符规范",
+        "reverse_process": 3
+      },
+      {
+        "editable_content": [
+          {
+            "content": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=o4hKoaHLxIqNWXyqUvIuak4HT8E%3D",
+            "content_type": 5
+          }
+        ],
+        "module_type": 6,
+        "note": "尺寸图可能不符规范",
+        "reverse_process": 3
+      }
+    ],
+    "spu_detail": {
+      "attrs": [
+        {
+          "attr_code": "REGION_OF_ORIGIN",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1676862691000",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "中国",
+                "item_name_en": "China",
+                "modify_time": "1676862691000",
+                "product_name_cn": "中国",
+                "product_name_en": "China",
+                "property_code": "REGION_OF_ORIGIN",
+                "property_id": "7202070388964542209",
+                "property_name": "原产地",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_id": "7202070400996640514",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1748507547262",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "否",
+                "item_name_en": "No",
+                "modify_time": "1748507547262",
+                "product_name_cn": "否",
+                "product_name_en": "No",
+                "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+                "property_id": "7509392418581219079",
+                "property_name": "商品含木制材料",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_id": "7509738714275006215",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "FDA_PRODUCT_CODE",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1750251004266",
+                "enabled_status": 0,
+                "is_private_value": true,
+                "item_name_cn": "52AIE28",
+                "item_name_en": "52AIE28",
+                "modify_time": "1750251004266",
+                "product_name_cn": "52AIE28",
+                "product_name_en": "52AIE28",
+                "property_code": "FDA_PRODUCT_CODE",
+                "property_id": "7476356513692862228",
+                "property_value_code": "7517194954022094599",
+                "property_value_id": "7517194954022094599"
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "QUANTITY",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1660301493000",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "1件",
+                "item_name_en": "1 Piece",
+                "modify_time": "1660301493000",
+                "product_name_cn": "1件",
+                "product_name_en": "1 Piece",
+                "property_code": "QUANTITY",
+                "property_id": "7125759180389156610",
+                "property_name": "每包数量",
+                "property_value_code": "1_PIECE",
+                "property_value_id": "7127945873471948545",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1735218133398",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "是",
+                "item_name_en": "Yes",
+                "modify_time": "1735218133398",
+                "product_name_cn": "是",
+                "product_name_en": "Yes",
+                "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+                "property_id": "7452545444443981584",
+                "property_name": "该商品是否有安全警示信息/标签（单个或多个）",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_id": "7452605711303132929",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "SENSITIVE_GOODS_TYPE",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1695881107736",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "非敏感品",
+                "item_name_en": "Non Sensitive Good",
+                "modify_time": "1695881107736",
+                "product_name_cn": "非敏感品",
+                "product_name_en": "Non Sensitive Good",
+                "property_code": "SENSITIVE_GOODS_TYPE",
+                "property_id": "7279692131945629442",
+                "property_name": "敏感品分类",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_id": "7283414885039867650",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "PLUG_TYPE",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1694485067763",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "无电源插头",
+                "item_name_en": "Not Applicable (Without Plug)",
+                "modify_time": "1694485067763",
+                "product_name_cn": "无电源插头",
+                "product_name_en": "Not Applicable (Without Plug)",
+                "property_code": "PLUG_TYPE",
+                "property_id": "7202070077519775489",
+                "property_name": "插头类型",
+                "property_value_code": "NO_PLUG",
+                "property_value_id": "7277494591958632193",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "MATERIAL",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1676862609000",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "陶瓷",
+                "item_name_en": "Ceramic",
+                "modify_time": "1684153311000",
+                "product_name_cn": "陶瓷",
+                "product_name_en": "Ceramic",
+                "property_code": "MATERIAL",
+                "property_id": "7110464130469512961",
+                "property_name": "材质",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_id": "7202070041697060609",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "CA_PROP_65_RE",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1708923418667",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "否",
+                "item_name_en": "No",
+                "modify_time": "1708923418667",
+                "product_name_cn": "否",
+                "product_name_en": "No",
+                "property_code": "CA_PROP_65_RE",
+                "property_id": "7338248934568003346",
+                "property_name": "是否含有化学物质",
+                "property_value_code": "RE_NO",
+                "property_value_id": "7338707075029780232",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        },
+        {
+          "attr_code": "CA_PROP_65_CA",
+          "values": [
+            {
+              "content": "",
+              "value_info": {
+                "create_time": "1708923203798",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "否",
+                "item_name_en": "No",
+                "modify_time": "1708923203798",
+                "product_name_cn": "否",
+                "product_name_en": "No",
+                "property_code": "CA_PROP_65_CA",
+                "property_id": "7338261380909713159",
+                "property_name": "是否含有致癌物质",
+                "property_value_code": "CA_NO",
+                "property_value_id": "7338649511073875730",
+                "sequence": 0
+              },
+              "value_name": "",
+              "value_name_en": ""
+            }
+          ]
+        }
+      ],
+      "biz_flow_state": 40,
+      "brand_id": "0",
+      "business_type": 0,
+      "category_id": "7382897992988182279",
+      "category_info": {
+        "classification_type_code": "HOME_\u0026_OUTDOORS",
+        "code": "TABLEWARE_RESTS_NEW__L3",
+        "full_id": [
+          "7382787936984549121",
+          "7382839521459947265",
+          "7382897992988182279"
+        ],
+        "full_name": [
+          "厨房用品",
+          "餐具",
+          "餐具托架"
+        ],
+        "id": "7382897992988182279"
+      },
+      "certification_codes": [],
+      "certification_results": [],
+      "combo_main_spu_code": "",
+      "combo_sub_spu_codes": [],
+      "exclude_region_codes": [],
+      "extra": {
+        "algo_goods_tag": "[\"JP\",\"MX\",\"DE\",\"FR\",\"IT\",\"ES\"]",
+        "gs_product_auto_flow_product": "1",
+        "gs_product_new_flow": "1",
+        "gs_product_new_product": "1",
+        "product_source": "2"
+      },
+      "ingredient_info": {},
+      "key_attribute_one_id": "7110464130469611265",
+      "key_attribute_one_info": {
+        "external_relations": [],
+        "property": {
+          "create_time": "1655534018000",
+          "description": "",
+          "enabled_status": 0,
+          "input_requirement": 0,
+          "input_way": 0,
+          "is_external_property": false,
+          "is_for_all_category": false,
+          "is_required_supplier_synergy": true,
+          "item_name_cn": "尺码",
+          "item_name_en": "Size",
+          "modify_time": "1688615351139",
+          "product_name_cn": "尺码",
+          "product_name_en": "Size",
+          "property_ascription": 1,
+          "property_code": "SIZE",
+          "property_id": "7110464130469611265",
+          "property_type": 2,
+          "property_value_type": 0,
+          "sequence": "0"
+        },
+        "property_values": []
+      },
+      "key_attribute_two_id": "7110491141870454529",
+      "key_attribute_two_info": {
+        "external_relations": [],
+        "property": {
+          "create_time": "1655540229000",
+          "description": "",
+          "enabled_status": 0,
+          "input_requirement": 0,
+          "input_way": 0,
+          "is_external_property": false,
+          "is_for_all_category": false,
+          "is_required_supplier_synergy": true,
+          "item_name_cn": "颜色",
+          "item_name_en": "Color",
+          "modify_time": "1670485093000",
+          "product_name_cn": "颜色",
+          "product_name_en": "Color",
+          "property_ascription": 1,
+          "property_code": "COLOUR",
+          "property_id": "7110491141870454529",
+          "property_type": 2,
+          "property_value_type": 0,
+          "sequence": "0"
+        },
+        "property_values": []
+      },
+      "manufacturer_infos": [
+        {
+          "address": "401 Youtian, Bulong Rd Longhua, Shenzhen, Guangdong, CN(China)",
+          "email": "401 Youtian, Bulong Rd Longhua, Shenzhen, Guangdong, CN(China)",
+          "id": "67d28dc5e61b905cdd399839",
+          "name": "Shenzhen Kongduixiang Technology Co., Ltd",
+          "phone": "18503029579"
+        }
+      ],
+      "pic_submit_way": 0,
+      "pic_supply_way": 0,
+      "picture_urls": [],
+      "price_calculate_rule": false,
+      "product_desc_en": "\u003cimg src=\"https://p16-she-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/3c3c85d5b039487d85bc345b70adf405~tplv-f7lenjegsh-origin-jpeg.jpeg?dr=16380\u0026t=168286af\u0026ps=933b5bde\u0026shp=970ba40d\u0026shcp=99349a10\u0026idc=sg1\u0026from=2534122509\" width=\"1200\" height=\"1200\"\u003e",
+      "product_media_info": {
+        "pic_set": {
+          "create_time": "0",
+          "effective_end_ts": "0",
+          "effective_start_ts": "0",
+          "extra": {
+            "ColorBlockImageMap": {},
+            "gne_audit_result": {},
+            "material_process_type": 2,
+            "model_info": {},
+            "sites": {},
+            "skc_sku_mapping": {
+              "S251113020905001": [
+                "S25111302090500101"
+              ]
+            }
+          },
+          "id": "932062103044",
+          "material_type": 1,
+          "object_material": {
+            "S25111302090500101": [
+              {
+                "extra": {},
+                "id": "932062104836",
+                "is_main": true,
+                "link_type": 3,
+                "material": {
+                  "extra": {
+                    "format": "jpeg",
+                    "height": "1200",
+                    "name": "",
+                    "resolution": "",
+                    "size": "331150",
+                    "target_height": "0",
+                    "target_width": "0",
+                    "uri_va": "tos-maliva-i-g9dfdl17fc-us/db24d15f58424436b81c7581f0c88174",
+                    "v_duration": "0",
+                    "width": "1200"
+                  },
+                  "id": "932062102788",
+                  "material_status": 1,
+                  "material_type": 1,
+                  "name": "",
+                  "parent_id": "0",
+                  "recognition_res": [
+                    {
+                      "actions": [],
+                      "pic_rec_id": "0",
+                      "rec_time_ms": "0",
+                      "recognitionAlgorithm": 1,
+                      "score": 0,
+                      "status": 2,
+                      "type": 0
+                    }
+                  ],
+                  "seller_id": "5765611516875867396",
+                  "shop_id": "0",
+                  "size": "0",
+                  "uri": "tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174",
+                  "urlMap": {
+                    "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/db24d15f58424436b81c7581f0c88174~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=ogUbL%2BgSokK3iS4mEQ69MFEpk7s%3D"
+                  },
+                  "vid": ""
+                },
+                "material_show_type": 2,
+                "material_use_type_code": "0",
+                "material_use_type_name": "",
+                "object_code": "S25111302090500101",
+                "order_num": "0",
+                "product_material_status": 3,
+                "seller_id": "5765611516875867396",
+                "shop_id": "0",
+                "spu_code": "S251113020905",
+                "tags": [
+                  {
+                    "tag_code": "PRODUCT_PIC",
+                    "tag_name": "产品图"
+                  },
+                  {
+                    "tag_code": "PRODUCT_PIC",
+                    "tag_name": "产品图"
+                  }
+                ]
+              }
+            ]
+          },
+          "scene": 0,
+          "set_code": "MS202511135891",
+          "set_status": 2,
+          "set_type": 3,
+          "spu_code": "S251113020905",
+          "spu_material": [
+            {
+              "extra": {},
+              "id": "932062103300",
+              "is_main": false,
+              "link_type": 1,
+              "material": {
+                "extra": {
+                  "format": "jpeg",
+                  "height": "1200",
+                  "name": "",
+                  "resolution": "",
+                  "size": "258196",
+                  "target_height": "0",
+                  "target_width": "0",
+                  "uri_va": "tos-maliva-i-g9dfdl17fc-us/9ccc8cf301ec48f2b1c1b7cffe40323b",
+                  "v_duration": "0",
+                  "width": "1200"
+                },
+                "id": "932062101252",
+                "material_status": 1,
+                "material_type": 1,
+                "name": "",
+                "parent_id": "0",
+                "recognition_res": [
+                  {
+                    "actions": [],
+                    "pic_rec_id": "0",
+                    "rec_time_ms": "0",
+                    "recognitionAlgorithm": 1,
+                    "score": 0,
+                    "status": 2,
+                    "type": 0
+                  }
+                ],
+                "seller_id": "5765611516875867396",
+                "shop_id": "0",
+                "size": "0",
+                "uri": "tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b",
+                "urlMap": {
+                  "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/9ccc8cf301ec48f2b1c1b7cffe40323b~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=XNgisYP5PZYGDH4BBzfoKlrIwMs%3D"
+                },
+                "vid": ""
+              },
+              "material_show_type": 1,
+              "material_use_type_code": "FIRST_PICTURE",
+              "material_use_type_name": "首图",
+              "object_code": "S251113020905",
+              "order_num": "0",
+              "product_material_status": 3,
+              "seller_id": "5765611516875867396",
+              "shop_id": "0",
+              "spu_code": "S251113020905",
+              "tags": []
+            },
+            {
+              "extra": {},
+              "id": "932062103556",
+              "is_main": false,
+              "link_type": 1,
+              "material": {
+                "extra": {
+                  "format": "jpeg",
+                  "height": "1200",
+                  "name": "",
+                  "resolution": "",
+                  "size": "331150",
+                  "target_height": "0",
+                  "target_width": "0",
+                  "uri_va": "tos-maliva-i-g9dfdl17fc-us/2114bc4b7aa24ecbb11f2d1cbe8821a0",
+                  "v_duration": "0",
+                  "width": "1200"
+                },
+                "id": "932062101508",
+                "material_status": 1,
+                "material_type": 1,
+                "name": "",
+                "parent_id": "0",
+                "recognition_res": [
+                  {
+                    "actions": [
+                      1001
+                    ],
+                    "pic_rec_id": "0",
+                    "rec_time_ms": "0",
+                    "recognitionAlgorithm": 1,
+                    "score": 0,
+                    "status": 2,
+                    "type": 1003
+                  }
+                ],
+                "seller_id": "5765611516875867396",
+                "shop_id": "0",
+                "size": "0",
+                "uri": "tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0",
+                "urlMap": {
+                  "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/2114bc4b7aa24ecbb11f2d1cbe8821a0~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=o4hKoaHLxIqNWXyqUvIuak4HT8E%3D"
+                },
+                "vid": ""
+              },
+              "material_show_type": 1,
+              "material_use_type_code": "SIZE_PIC",
+              "material_use_type_name": "尺寸图",
+              "object_code": "S251113020905",
+              "order_num": "1",
+              "product_material_status": 3,
+              "seller_id": "5765611516875867396",
+              "shop_id": "0",
+              "spu_code": "S251113020905",
+              "tags": [
+                {
+                  "tag_code": "SIZE_PIC",
+                  "tag_name": "尺寸图"
+                }
+              ]
+            },
+            {
+              "extra": {},
+              "id": "932062103812",
+              "is_main": false,
+              "link_type": 1,
+              "material": {
+                "extra": {
+                  "format": "jpeg",
+                  "height": "1200",
+                  "name": "",
+                  "resolution": "",
+                  "size": "629967",
+                  "target_height": "0",
+                  "target_width": "0",
+                  "uri_va": "tos-maliva-i-g9dfdl17fc-us/99126d2281ee44ef99f954dd3273d58b",
+                  "v_duration": "0",
+                  "width": "1200"
+                },
+                "id": "932062101764",
+                "material_status": 1,
+                "material_type": 1,
+                "name": "",
+                "parent_id": "0",
+                "recognition_res": [
+                  {
+                    "actions": [],
+                    "pic_rec_id": "0",
+                    "rec_time_ms": "0",
+                    "recognitionAlgorithm": 1,
+                    "score": 0,
+                    "status": 2,
+                    "type": 0
+                  }
+                ],
+                "seller_id": "5765611516875867396",
+                "shop_id": "0",
+                "size": "0",
+                "uri": "tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b",
+                "urlMap": {
+                  "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/99126d2281ee44ef99f954dd3273d58b~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=549y3rX2amAy4zHZSHzOaZz%2FTIw%3D"
+                },
+                "vid": ""
+              },
+              "material_show_type": 1,
+              "material_use_type_code": "DETAIL_PICTURE",
+              "material_use_type_name": "细节图",
+              "object_code": "S251113020905",
+              "order_num": "2",
+              "product_material_status": 3,
+              "seller_id": "5765611516875867396",
+              "shop_id": "0",
+              "spu_code": "S251113020905",
+              "tags": []
+            },
+            {
+              "extra": {},
+              "id": "932062104068",
+              "is_main": false,
+              "link_type": 1,
+              "material": {
+                "extra": {
+                  "format": "jpeg",
+                  "height": "1200",
+                  "name": "",
+                  "resolution": "",
+                  "size": "641555",
+                  "target_height": "0",
+                  "target_width": "0",
+                  "uri_va": "tos-maliva-i-g9dfdl17fc-us/c2611f5cc1e0442b9d95104d42e84850",
+                  "v_duration": "0",
+                  "width": "1200"
+                },
+                "id": "932062102020",
+                "material_status": 1,
+                "material_type": 1,
+                "name": "",
+                "parent_id": "0",
+                "recognition_res": [
+                  {
+                    "actions": [],
+                    "pic_rec_id": "0",
+                    "rec_time_ms": "0",
+                    "recognitionAlgorithm": 1,
+                    "score": 0,
+                    "status": 2,
+                    "type": 0
+                  }
+                ],
+                "seller_id": "5765611516875867396",
+                "shop_id": "0",
+                "size": "0",
+                "uri": "tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850",
+                "urlMap": {
+                  "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/c2611f5cc1e0442b9d95104d42e84850~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=z7YvTgUBaWCipZ%2BncxulDiZwnQs%3D"
+                },
+                "vid": ""
+              },
+              "material_show_type": 1,
+              "material_use_type_code": "DETAIL_PICTURE",
+              "material_use_type_name": "细节图",
+              "object_code": "S251113020905",
+              "order_num": "3",
+              "product_material_status": 3,
+              "seller_id": "5765611516875867396",
+              "shop_id": "0",
+              "spu_code": "S251113020905",
+              "tags": []
+            },
+            {
+              "extra": {},
+              "id": "932062104324",
+              "is_main": false,
+              "link_type": 1,
+              "material": {
+                "extra": {
+                  "format": "jpeg",
+                  "height": "1200",
+                  "name": "",
+                  "resolution": "",
+                  "size": "426942",
+                  "target_height": "0",
+                  "target_width": "0",
+                  "uri_va": "tos-maliva-i-g9dfdl17fc-us/f0547b7711634a579e9c2468bae9d4d6",
+                  "v_duration": "0",
+                  "width": "1200"
+                },
+                "id": "932062102276",
+                "material_status": 1,
+                "material_type": 1,
+                "name": "",
+                "parent_id": "0",
+                "recognition_res": [
+                  {
+                    "actions": [],
+                    "pic_rec_id": "0",
+                    "rec_time_ms": "0",
+                    "recognitionAlgorithm": 1,
+                    "score": 0,
+                    "status": 2,
+                    "type": 0
+                  }
+                ],
+                "seller_id": "5765611516875867396",
+                "shop_id": "0",
+                "size": "0",
+                "uri": "tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6",
+                "urlMap": {
+                  "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/f0547b7711634a579e9c2468bae9d4d6~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=5FZ4G7e7wLjx0fWXWQI3gOPtz7k%3D"
+                },
+                "vid": ""
+              },
+              "material_show_type": 1,
+              "material_use_type_code": "DETAIL_PICTURE",
+              "material_use_type_name": "细节图",
+              "object_code": "S251113020905",
+              "order_num": "4",
+              "product_material_status": 3,
+              "seller_id": "5765611516875867396",
+              "shop_id": "0",
+              "spu_code": "S251113020905",
+              "tags": []
+            },
+            {
+              "extra": {},
+              "id": "932062104580",
+              "is_main": false,
+              "link_type": 1,
+              "material": {
+                "extra": {
+                  "format": "jpeg",
+                  "height": "1200",
+                  "name": "",
+                  "resolution": "",
+                  "size": "422526",
+                  "target_height": "0",
+                  "target_width": "0",
+                  "uri_va": "tos-maliva-i-g9dfdl17fc-us/5b33c50e1f9d427594f84280925f5748",
+                  "v_duration": "0",
+                  "width": "1200"
+                },
+                "id": "932062102532",
+                "material_status": 1,
+                "material_type": 1,
+                "name": "",
+                "parent_id": "0",
+                "recognition_res": [
+                  {
+                    "actions": [],
+                    "pic_rec_id": "0",
+                    "rec_time_ms": "0",
+                    "recognitionAlgorithm": 1,
+                    "score": 0,
+                    "status": 2,
+                    "type": 0
+                  }
+                ],
+                "seller_id": "5765611516875867396",
+                "shop_id": "0",
+                "size": "0",
+                "uri": "tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748",
+                "urlMap": {
+                  "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/5b33c50e1f9d427594f84280925f5748~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763546348\u0026x-signature=tjvzkbMNNTwmKW8SwkaqFUqr8vs%3D"
+                },
+                "vid": ""
+              },
+              "material_show_type": 1,
+              "material_use_type_code": "DETAIL_PICTURE",
+              "material_use_type_name": "细节图",
+              "object_code": "S251113020905",
+              "order_num": "5",
+              "product_material_status": 3,
+              "seller_id": "5765611516875867396",
+              "shop_id": "0",
+              "spu_code": "S251113020905",
+              "tags": []
+            }
+          ],
+          "update_time": "0"
+        }
+      },
+      "product_name": "Christmas Santa Coffee Spoon Rest Ceramic Spoon Holder Cafe Bar Accessories, Funny Stove Top Countertop Kitchen Accessories Christmas Thanksgiving Gift for Coffee Lovers, Christmas Holiday Xmas New Year Gift",
+      "product_name_en": "Christmas Santa Coffee Spoon Rest Ceramic Spoon Holder Cafe Bar Accessories, Funny Stove Top Countertop Kitchen Accessories Christmas Thanksgiving Gift for Coffee Lovers, Christmas Holiday Xmas New Year Gift",
+      "properties_v2": [
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "REGION_OF_ORIGIN",
+            "property_id": "7202070388964542209",
+            "property_value_list": [
+              {
+                "property_value_cn": "中国",
+                "property_value_code": "REGION_OF_ORIGIN_CHINA",
+                "property_value_content": "",
+                "property_value_en": "China",
+                "property_value_id": "7202070400996640514"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+            "property_id": "7509392418581219079",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "WSDFGHNGFDSXZASEDR",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7509738714275006215"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "FDA_PRODUCT_CODE",
+            "property_id": "7476356513692862228",
+            "property_value_list": [
+              {
+                "property_value_cn": "52AIE28",
+                "property_value_code": "7517194954022094599",
+                "property_value_content": "",
+                "property_value_en": "52AIE28",
+                "property_value_id": "7517194954022094599"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "QUANTITY",
+            "property_id": "7125759180389156610",
+            "property_value_list": [
+              {
+                "property_value_cn": "1件",
+                "property_value_code": "1_PIECE",
+                "property_value_content": "",
+                "property_value_en": "1 Piece",
+                "property_value_id": "7127945873471948545"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+            "property_id": "7452545444443981584",
+            "property_value_list": [
+              {
+                "property_value_cn": "是",
+                "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+                "property_value_content": "",
+                "property_value_en": "Yes",
+                "property_value_id": "7452605711303132929"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "SENSITIVE_GOODS_TYPE",
+            "property_id": "7279692131945629442",
+            "property_value_list": [
+              {
+                "property_value_cn": "非敏感品",
+                "property_value_code": "NON_SENSITIVE_GOOD",
+                "property_value_content": "",
+                "property_value_en": "Non Sensitive Good",
+                "property_value_id": "7283414885039867650"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "PLUG_TYPE",
+            "property_id": "7202070077519775489",
+            "property_value_list": [
+              {
+                "property_value_cn": "无电源插头",
+                "property_value_code": "NO_PLUG",
+                "property_value_content": "",
+                "property_value_en": "Not Applicable (Without Plug)",
+                "property_value_id": "7277494591958632193"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "MATERIAL",
+            "property_id": "7110464130469512961",
+            "property_value_list": [
+              {
+                "property_value_cn": "陶瓷",
+                "property_value_code": "MATERIAL_CERAMIC",
+                "property_value_content": "",
+                "property_value_en": "Ceramic",
+                "property_value_id": "7202070041697060609"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "JP"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_RE",
+            "property_id": "7338248934568003346",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "RE_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338707075029780232"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "SA"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "FR"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "DE"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "GB"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "ES"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "IT"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "US"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "MX"
+        },
+        {
+          "property": {
+            "property_code": "CA_PROP_65_CA",
+            "property_id": "7338261380909713159",
+            "property_value_list": [
+              {
+                "property_value_cn": "否",
+                "property_value_code": "CA_NO",
+                "property_value_content": "",
+                "property_value_en": "No",
+                "property_value_id": "7338649511073875730"
+              }
+            ]
+          },
+          "region": "JP"
+        }
+      ],
+      "push_spu_time": "1763004416229",
+      "rp_models": [
+        {
+          "address": {
+            "city": "",
+            "country": "3017382",
+            "province": "",
+            "street": "78 avenue des Champs Elysees Bureau 326, Paris, Ile de France"
+          },
+          "company_name": "MJCM SARL",
+          "createTime": "1741317823034",
+          "default_RP": true,
+          "email": "mjcm190928@gmail.com",
+          "id": "67ca66bf396fd5d6b80309cc",
+          "name": {
+            "first_name": "",
+            "last_name": "",
+            "middle_name": ""
+          },
+          "phone_number": {
+            "phone_number": "767213611",
+            "phone_number_region": "+33"
+          },
+          "rp_name": "MJCM SARL",
+          "type": 2,
+          "updateTime": "1741317823034",
+          "version": "50"
+        }
+      ],
+      "sale_property_list": [
+        {
+          "property": {
+            "create_time": "1655534018000",
+            "modify_time": "1688615351139",
+            "name_cn": "尺码",
+            "name_en": "Size",
+            "property_code": "SIZE",
+            "property_id": "7110464130469611265",
+            "property_type": 2,
+            "tts_property_id": "100007"
+          },
+          "property_values": [
+            {
+              "create_time": "1655535259000",
+              "is_private_value": false,
+              "modify_time": "1684401564000",
+              "name_cn": "均码",
+              "name_en": "one-size",
+              "property_value_code": "ONE-SIZE",
+              "property_value_id": "7110469796013803266",
+              "tts_property_value_id": "1294488"
+            }
+          ]
+        },
+        {
+          "property": {
+            "create_time": "1655540229000",
+            "modify_time": "1670485093000",
+            "name_cn": "颜色",
+            "name_en": "Color",
+            "property_code": "COLOUR",
+            "property_id": "7110491141870454529",
+            "property_type": 2,
+            "tts_property_id": "100000"
+          },
+          "property_values": [
+            {
+              "create_time": "1683704781022",
+              "is_private_value": false,
+              "modify_time": "1683704781022",
+              "name_cn": "彩色",
+              "name_en": "Multicolor",
+              "property_value_code": "M01",
+              "property_value_id": "7086047768556734213",
+              "tts_property_value_id": "1003577"
+            }
+          ]
+        }
+      ],
+      "securit_warnings": [],
+      "security_warning_info": {
+        "security_warning_languages": []
+      },
+      "skc_details": [
+        {
+          "article_number": "",
+          "index": "0",
+          "key_attribute_one_value_id": "7110469796013803266",
+          "key_attribute_one_value_info": {
+            "create_time": "1655535259000",
+            "enabled_status": 0,
+            "is_external_property_value": false,
+            "item_name_cn": "均码",
+            "item_name_en": "one-size",
+            "modify_time": "1684401564000",
+            "product_name_cn": "均码",
+            "product_name_en": "one-size",
+            "property_code": "SIZE",
+            "property_id": "7110464130469611265",
+            "property_name": "尺码",
+            "property_value_code": "ONE-SIZE",
+            "property_value_id": "7110469796013803266",
+            "sequence": 0
+          },
+          "pic_set_info": [],
+          "pic_supply_way": 1,
+          "picture_urls": [],
+          "preview_pic_list": [],
+          "sale_property_value_info": {
+            "create_time": "1655535259000",
+            "is_private_value": false,
+            "modify_time": "1684401564000",
+            "name_cn": "均码",
+            "name_en": "one-size",
+            "property_value_code": "ONE-SIZE",
+            "property_value_id": "7110469796013803266",
+            "tts_property_value_id": "1294488"
+          },
+          "skc_code": "S251113020905001",
+          "sku_details": [
+            {
+              "add_specs_type": 0,
+              "article_number": "TCST-3179SC-PCY",
+              "combo_relations": [],
+              "combo_type": 0,
+              "description": "",
+              "index": "0",
+              "key_attribute_two_value_id": "7086047768556734213",
+              "key_attribute_two_value_info": {
+                "create_time": "1683704781022",
+                "enabled_status": 0,
+                "is_external_property_value": false,
+                "item_name_cn": "彩色",
+                "item_name_en": "Multicolor",
+                "modify_time": "1683704781022",
+                "product_name_cn": "彩色",
+                "product_name_en": "Multicolor",
+                "property_code": "COLOUR",
+                "property_id": "7110491141870454529",
+                "property_name": "颜色",
+                "property_value_code": "M01",
+                "property_value_id": "7086047768556734213",
+                "sequence": 0
+              },
+              "main_version_sku_status": 1000,
+              "package_longest_length": "100",
+              "package_middle_length": "100",
+              "package_shortest_length": "30",
+              "package_weight": "98000",
+              "price": "1550",
+              "price_currency_type": 0,
+              "sale_property_list": [
+                {
+                  "create_time": "1655535259000",
+                  "is_private_value": false,
+                  "modify_time": "1684401564000",
+                  "name_cn": "均码",
+                  "name_en": "one-size",
+                  "property_value_code": "ONE-SIZE",
+                  "property_value_id": "7110469796013803266",
+                  "tts_property_value_id": "1294488"
+                },
+                {
+                  "create_time": "1683704781022",
+                  "is_private_value": false,
+                  "modify_time": "1683704781022",
+                  "name_cn": "彩色",
+                  "name_en": "Multicolor",
+                  "property_value_code": "M01",
+                  "property_value_id": "7086047768556734213",
+                  "tts_property_value_id": "1003577"
+                }
+              ],
+              "sku_code": "S25111302090500101",
+              "sku_status": 100100,
+              "sku_status_v2": 1000,
+              "stock": "1000",
+              "stock_mode": 2
+            }
+          ]
+        }
+      ],
+      "spu_code": "S251113020905",
+      "supplier_id": "5765611516875867396",
+      "supplier_info": {
+        "supplier_id": "5765611516875867396",
+        "supplier_name": "湖南德鸿网络科技有限公司",
+        "tax_rate": "0"
+      },
+      "ticket_code": "XK251113021466"
+    }
+  },
+  "relative_task_ids": [
+    "7572079685460690704",
+    "7572493339191330576"
+  ]
+}
