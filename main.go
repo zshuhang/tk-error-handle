@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"time"
 	"tk-error-handle/http"
 	M "tk-error-handle/model"
 )
@@ -13,11 +14,21 @@ var ctx = context.Background()
 var sessionId = "bfa765bd3284cededa8eed1da8ad5ea3"
 
 func main() {
-	fmt.Println("此脚本目前只处理图片异常，所以搜索出的异常数据只包含图片异常！！！！！！ ")
-	fmt.Println("sessionId如何获取？")
-	fmt.Println("登录TK商家中心->按F12->点击应用程序(应用、Application)->双击Cookie->")
-	fmt.Println("选Cookie下面的第一个->右边会弹出一个表格->在名称列下找sessionid->复制其对应的值")
-
+	fmt.Println("========================================")
+	fmt.Println("  TK商品异常处理工具")
+	fmt.Println("========================================")
+	fmt.Println()
+	fmt.Println("⚠️  注意：此脚本目前只处理图片异常，搜索出的异常数据只包含图片异常")
+	fmt.Println()
+	fmt.Println("📋 sessionId 获取步骤：")
+	fmt.Println("   1. 登录 TK 商家中心")
+	fmt.Println("   2. 按 F12 打开开发者工具")
+	fmt.Println("   3. 点击「应用程序」(Application)")
+	fmt.Println("   4. 双击「Cookie」")
+	fmt.Println("   5. 选择 Cookie 下面的第一个选项")
+	fmt.Println("   6. 在右侧表格的「名称」列中找到 sessionid")
+	fmt.Println("   7. 复制其对应的值")
+	fmt.Println()
 	fmt.Print("请输入 sessionId: ")
 	fmt.Scanln(&sessionId)
 	if sessionId == "" {
@@ -37,7 +48,19 @@ func main() {
 		}
 		fmt.Printf("SPU:%s   申诉状态：%s   货号：%s\n", product.SpuCode, appealStatus, product.ArticleNumber)
 	}
-	fmt.Printf("查询到%d个异常待处理\n", len(products))
+	fmt.Printf("查询到%d个异常待处理，按回车开始处理\n", len(products))
+	fmt.Scanln()
+
+	for _, product := range products {
+		fmt.Printf("当前处理spu %s\n", product.SpuCode)
+
+		// productDesc, RelativeTaskIds = GetProductDesc(product.SpuCode)
+		productDesc, _ := GetProductDesc(product.SpuCode)
+
+		fmt.Printf("%+v", productDesc)
+
+		time.Sleep(30 * time.Second)
+	}
 }
 
 func GetProductList() []M.Product {
@@ -102,4 +125,20 @@ func GetProductList() []M.Product {
 	}
 
 	return response.Products
+}
+
+func GetProductDesc(spuCode string) (M.ProductDesc, []int64) {
+	request := M.ProductDescRequest{
+		SpuCode:       spuCode,
+		ReverseStatus: 10,
+	}
+
+	var response M.ProductDescResponse
+
+	err := http.Request("POST", "/reverse/get_detail", sessionId, ctx, &request, &response)
+	if err != nil {
+		panic(err)
+	}
+
+	return response.Info.SpuDetail, response.RelativeTaskIds
 }

@@ -2,49 +2,49 @@ import fs from "fs";
 import axios from "axios";
 import JSONBig from "json-bigint";
 
-axios.defaults.transformResponse = [
-  function (data) {
-    try {
-      // 使用 json-bigint 解析原始的响应数据（字符串）
-      // { storeAsString: true } 选项会将大数自动转换为字符串
-      return JSONBig.parse(data);
-    } catch (err) {
-      // 如果解析失败，降级为普通 JSON.parse 或返回原始数据
-      console.error("JSONBig parse error:", err);
-      return JSON.parse(data); // 或者直接 return data;
-    }
-  },
-];
+// axios.defaults.transformResponse = [
+//   function (data) {
+//     try {
+//       // 使用 json-bigint 解析原始的响应数据（字符串）
+//       // { storeAsString: true } 选项会将大数自动转换为字符串
+//       return JSONBig.parse(data);
+//     } catch (err) {
+//       // 如果解析失败，降级为普通 JSON.parse 或返回原始数据
+//       console.error("JSONBig parse error:", err);
+//       return JSON.parse(data); // 或者直接 return data;
+//     }
+//   },
+// ];
 
 // 全部需要 sessionid
 
 // 获取问题列表
-const data = await axios.request({
-  url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/list",
-  method: "POST",
-  headers: {
-    cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
-  },
-  data: {
-    filter: { article_number: "TCST", reverse_status: 10 },
-    page_info: { page_no: 1, page_size: 10 },
-  },
-});
-fs.writeFileSync("productList.json", JSON.stringify(data.data, null, 2));
-
-// 获取商品详情
 // const data = await axios.request({
-//   url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/get_detail",
+//   url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/list",
 //   method: "POST",
 //   headers: {
 //     cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
 //   },
 //   data: {
-//     spu_code: "S251118011105",
-//     reverse_status: 10,
+//     filter: { article_number: "TCST", reverse_status: 10 },
+//     page_info: { page_no: 1, page_size: 10 },
 //   },
 // });
-// fs.writeFileSync("productDesc.json", JSON.stringify(data.data, null, 2));
+// fs.writeFileSync("productList.json", JSON.stringify(data.data, null, 2));
+
+// 获取商品详情
+const data = await axios.request({
+  url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/get_detail",
+  method: "POST",
+  headers: {
+    cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
+  },
+  data: {
+    spu_code: "S250519012449",
+    reverse_status: 10,
+  },
+});
+fs.writeFileSync("productDesc.json", JSON.stringify(data.data, null, 2));
 
 // 获取商品的类目属性关系 （补充properties_v2属性）
 // const data = await axios.request({
@@ -317,3 +317,6 @@ fs.writeFileSync("./createAppeal.json", JSON.stringify(appealOrderParams, null, 
 // });
 
 // console.log(data.data);
+
+
+
