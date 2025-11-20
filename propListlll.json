@@ -1,0 +1,312 @@
+[
+  {
+    "create_time": 1676862637000,
+    "modify_time": 1689089715111,
+    "name_cn": "规格",
+    "name_en": "Specification",
+    "property_code": "SPECIFICATION",
+    "property_id": 7202070159196440321,
+    "property_type": 2,
+    "tts_property_id": 100089
+  },
+  {
+    "create_time": 1676862606000,
+    "modify_time": 1676862606000,
+    "name_cn": "布置",
+    "name_en": "Placement",
+    "property_code": "PLACEMENT",
+    "property_id": 7202070030196066050,
+    "property_type": 1,
+    "tts_property_id": 100838
+  },
+  {
+    "create_time": 1676862706000,
+    "modify_time": 1676862706000,
+    "name_cn": "主体",
+    "name_en": "Subject",
+    "property_code": "SUBJECT",
+    "property_id": 7202070469053548290,
+    "property_type": 1,
+    "tts_property_id": 100864
+  },
+  {
+    "create_time": 1676862690000,
+    "modify_time": 1679051787000,
+    "name_cn": "原产地",
+    "name_en": "Region Of Origin",
+    "property_code": "REGION_OF_ORIGIN",
+    "property_id": 7202070388964542209,
+    "property_type": 1,
+    "tts_property_id": 100336
+  },
+  {
+    "create_time": 1655534018000,
+    "modify_time": 1684899094530,
+    "name_cn": "风格",
+    "name_en": "Style",
+    "property_code": "STYLE",
+    "property_id": 7110464130469381889,
+    "property_type": 1,
+    "tts_property_id": 100398
+  },
+  {
+    "create_time": 1655540229000,
+    "modify_time": 1670485093000,
+    "name_cn": "颜色",
+    "name_en": "Color",
+    "property_code": "COLOUR",
+    "property_id": 7110491141870454529,
+    "property_type": 2,
+    "tts_property_id": 100000
+  },
+  {
+    "create_time": 1677556999000,
+    "modify_time": 1691730063540,
+    "name_cn": "图案",
+    "name_en": "Pattern",
+    "property_code": "PATTERN",
+    "property_id": 7205037395883362049,
+    "property_type": 2,
+    "tts_property_id": 101405
+  },
+  {
+    "create_time": 1655534018000,
+    "modify_time": 1688615351139,
+    "name_cn": "尺码",
+    "name_en": "Size",
+    "property_code": "SIZE",
+    "property_id": 7110464130469611265,
+    "property_type": 2,
+    "tts_property_id": 100007
+  },
+  {
+    "create_time": 1740737267021,
+    "modify_time": 1740737267021,
+    "name_cn": "植物学名（属名）",
+    "name_en": "Plant Scientific Names （Genus）",
+    "property_code": "PLANT_SCIENTIFIC_NAMES_GENUS",
+    "property_id": 7476348165313840903,
+    "property_type": 1,
+    "tts_property_id": 102391
+  },
+  {
+    "create_time": 1708919168600,
+    "modify_time": 1712473251691,
+    "name_cn": "致癌物质",
+    "name_en": "Carcinogen",
+    "property_code": "CARCINOGEN",
+    "property_id": 7338290052903274247,
+    "property_type": 1,
+    "tts_property_id": 101397
+  },
+  {
+    "create_time": 1695017184026,
+    "modify_time": 1704422564853,
+    "name_cn": "敏感品分类",
+    "name_en": "Sensitive Goods Type",
+    "property_code": "SENSITIVE_GOODS_TYPE",
+    "property_id": 7279692131945629442,
+    "property_type": 1,
+    "tts_property_id": 101372
+  },
+  {
+    "create_time": 1708919040849,
+    "modify_time": 1746775212532,
+    "name_cn": "是否含有致癌物质",
+    "name_en": "CA Prop 65: Carcinogens",
+    "property_code": "CA_PROP_65_CA",
+    "property_id": 7338261380909713159,
+    "property_type": 1,
+    "tts_property_id": 101400
+  },
+  {
+    "create_time": 1677136726000,
+    "modify_time": 1704944341299,
+    "name_cn": "型号（需与资质证书，商品外包装，商品标签的model一致，带电必填）",
+    "name_en": "Model",
+    "property_code": "MODEL_XINGHAO",
+    "property_id": 7202535968250595073,
+    "property_type": 1,
+    "tts_property_id": 100177
+  },
+  {
+    "create_time": 1740737267104,
+    "modify_time": 1740737267104,
+    "name_cn": "木材采伐的国家",
+    "name_en": "Country Of Plant Harvested",
+    "property_code": "COUNTRY_OF_PLANT_HARVESTED",
+    "property_id": 7476356513692878612,
+    "property_type": 1,
+    "tts_property_id": 102393
+  },
+  {
+    "create_time": 1708919096333,
+    "modify_time": 1746775510861,
+    "name_cn": "是否含有化学物质",
+    "name_en": "CA Prop 65: Repro. Chems",
+    "property_code": "CA_PROP_65_RE",
+    "property_id": 7338248934568003346,
+    "property_type": 1,
+    "tts_property_id": 101395
+  },
+  {
+    "create_time": 1686224993642,
+    "modify_time": 1686233141787,
+    "name_cn": "产品类型",
+    "name_en": "Product Type",
+    "property_code": "PRODUCT_TYPE",
+    "property_id": 7242280204911265538,
+    "property_type": 1,
+    "tts_property_id": 101018
+  },
+  {
+    "create_time": 1708919207534,
+    "modify_time": 1712473268663,
+    "name_cn": "化学物质",
+    "name_en": "Reprotoxic Chemicals",
+    "property_code": "REPROTOXIC",
+    "property_id": 7338261380909729543,
+    "property_type": 1,
+    "tts_property_id": 101398
+  },
+  {
+    "create_time": 1655534018000,
+    "modify_time": 1677594301000,
+    "name_cn": "材质",
+    "name_en": "Material",
+    "property_code": "MATERIAL",
+    "property_id": 7110464130469512961,
+    "property_type": 1,
+    "tts_property_id": 100701
+  },
+  {
+    "create_time": 1739952337287,
+    "modify_time": 1747707684832,
+    "name_cn": "计数方式",
+    "name_en": "Unit Type",
+    "property_code": "UNIT_TYPE",
+    "property_id": 7473008311513679624,
+    "property_type": 1,
+    "tts_property_id": 101470
+  },
+  {
+    "create_time": 1676862622000,
+    "modify_time": 1679380713000,
+    "name_cn": "电池容量(mAh)",
+    "name_en": "Battery Capacity(Mah)",
+    "property_code": "BATTERY_CAPACITY(MAH)",
+    "property_id": 7202070108112619266,
+    "property_type": 1,
+    "tts_property_id": 100111
+  },
+  {
+    "create_time": 1676862637000,
+    "modify_time": 1719393139347,
+    "name_cn": "Battery Power (wh)",
+    "name_en": "Power (W)",
+    "property_code": "POWER(W)",
+    "property_id": 7202070159196129025,
+    "property_type": 1,
+    "tts_property_id": 101077
+  },
+  {
+    "create_time": 1715323226376,
+    "modify_time": 1715323226376,
+    "name_cn": "安全警告",
+    "name_en": "Safety Warning",
+    "property_code": "SAFETY_WARNING",
+    "property_id": 7366813732188882705,
+    "property_type": 1,
+    "tts_property_id": 101485
+  },
+  {
+    "create_time": 1676862616000,
+    "modify_time": 1677590948000,
+    "name_cn": "插头类型",
+    "name_en": "Plug Type",
+    "property_code": "PLUG_TYPE",
+    "property_id": 7202070077519775489,
+    "property_type": 1,
+    "tts_property_id": 100113
+  },
+  {
+    "create_time": 1735218054089,
+    "modify_time": 1744256847992,
+    "name_cn": "该商品是否有安全警示信息/标签（单个或多个）",
+    "name_en": "Confirm Any Regulatory Marking Or Label",
+    "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+    "property_id": 7452545444443981584,
+    "property_type": 1,
+    "tts_property_id": 102277
+  },
+  {
+    "create_time": 1735218629807,
+    "modify_time": 1736750997460,
+    "name_cn": "保修信息",
+    "name_en": "Warranty",
+    "property_code": "WARRANTY",
+    "property_id": 7452605711303165697,
+    "property_type": 1,
+    "tts_property_id": 102181
+  },
+  {
+    "create_time": 1735543418161,
+    "modify_time": 1735877065180,
+    "name_cn": "商品安全警示信息（如有）",
+    "name_en": "Safety Warining",
+    "property_code": "SAFETY_WARNING_LANGUAGE",
+    "property_id": 7453305936255715090,
+    "property_type": 1,
+    "tts_property_id": 101469
+  },
+  {
+    "create_time": 1748422361109,
+    "modify_time": 1748422361109,
+    "name_cn": "商品含木制材料",
+    "name_en": "Product Contain Wooden Materials",
+    "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+    "property_id": 7509392418581219079,
+    "property_type": 1,
+    "tts_property_id": 102517
+  },
+  {
+    "create_time": 1740737267065,
+    "modify_time": 1740737267065,
+    "name_cn": "植物学名（种名）",
+    "name_en": "Plant Scientific Names（Species）",
+    "property_code": "PLANT_SCIENTIFIC_NAMES_SPECIES",
+    "property_id": 7476361877375682325,
+    "property_type": 1,
+    "tts_property_id": 102392
+  },
+  {
+    "create_time": 1660301430000,
+    "modify_time": 1701072063882,
+    "name_cn": "每包数量",
+    "name_en": "Quantity Per Pack",
+    "property_code": "QUANTITY",
+    "property_id": 7125759180389156610,
+    "property_type": 1,
+    "tts_property_id": 100347
+  },
+  {
+    "create_time": 1727335227890,
+    "modify_time": 1749795005648,
+    "name_cn": "生产批次号",
+    "name_en": "Batch Number",
+    "property_code": "BATCH_NUMBER",
+    "property_id": 7418763405660014343,
+    "property_type": 1,
+    "tts_property_id": 102255
+  },
+  {
+    "create_time": 1739952381389,
+    "modify_time": 1740711613686,
+    "name_cn": "基本计数单位",
+    "name_en": "Base Unit Count",
+    "property_code": "BASE_UNIT_COUNT",
+    "property_id": 7472970450705155860,
+    "property_type": 1,
+    "tts_property_id": 101471
+  }
+]

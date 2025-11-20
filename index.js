@@ -33,32 +33,32 @@ import JSONBig from "json-bigint";
 // fs.writeFileSync("productList.json", JSON.stringify(data.data, null, 2));
 
 // 获取商品详情
-const data = await axios.request({
-  url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/get_detail",
-  method: "POST",
-  headers: {
-    cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
-  },
-  data: {
-    spu_code: "S250519012449",
-    reverse_status: 10,
-  },
-});
-fs.writeFileSync("productDesc.json", JSON.stringify(data.data, null, 2));
-
-// 获取商品的类目属性关系 （补充properties_v2属性）
 // const data = await axios.request({
-//   url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/category/m_get_category_prop_relation",
+//   url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/get_detail",
 //   method: "POST",
 //   headers: {
 //     cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
 //   },
 //   data: {
-//     category_ids: ["7382947714688599815"],
-//     region_list: ["SA", "GB", "US", "FR", "DE", "IT", "ES", "MX", "JP"],
+//     spu_code: "S250519012449",
+//     reverse_status: 10,
 //   },
 // });
-// fs.writeFileSync("categoryPropRelation.json", JSON.stringify(data.data, null, 2));
+// fs.writeFileSync("productDesc.json", JSON.stringify(data.data, null, 2));
+
+// 获取商品的类目属性关系 （补充properties_v2属性）
+const data = await axios.request({
+  url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/category/m_get_category_prop_relation",
+  method: "POST",
+  headers: {
+    cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
+  },
+  data: {
+    category_ids: ["7382947714688599815"],
+    region_list: ["SA", "GB", "US", "FR", "DE", "IT", "ES", "MX", "JP"],
+  },
+});
+fs.writeFileSync("categoryPropRelation.json", JSON.stringify(data.data, null, 2));
 
 /*
 let productDesc = JSON.parse(fs.readFileSync("./productDesc.json"));

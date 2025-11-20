@@ -2,8 +2,11 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 	"errors"
 	"fmt"
+	"os"
+	"strconv"
 	"time"
 	"tk-error-handle/http"
 	M "tk-error-handle/model"
@@ -57,9 +60,22 @@ func main() {
 		// productDesc, RelativeTaskIds = GetProductDesc(product.SpuCode)
 		productDesc, _ := GetProductDesc(product.SpuCode)
 
-		fmt.Printf("%+v", productDesc)
+		propList, propValueList := GetCategoryRelation(strconv.FormatInt(productDesc.CategoryID, 10))
 
-		time.Sleep(30 * time.Second)
+		fmt.Println(propList, propValueList)
+		// data, err := json.MarshalIndent(propList, "", "  ")
+		// if err != nil {
+		// 	panic(err)
+		// }
+		// os.WriteFile("propListlll.json", data, 0644)
+
+		// data, err = json.MarshalIndent(propValueList, "", "  ")
+		// if err != nil {
+		// 	panic(err)
+		// }
+		// os.WriteFile("propValueListlll.json", data, 0644)
+
+		// time.Sleep(30 * time.Second)
 	}
 }
 
@@ -141,4 +157,19 @@ func GetProductDesc(spuCode string) (M.ProductDesc, []int64) {
 	}
 
 	return response.Info.SpuDetail, response.RelativeTaskIds
+}
+
+func GetCategoryRelation(categoryId string) ([]M.Prop, []M.PropValue) {
+	request := M.CategoryRelationRequest{
+		CategoryIds: []string{categoryId},
+		RegionList:  []string{"SA", "GB", "US", "FR", "DE", "IT", "ES", "MX", "JP"},
+	}
+
+	var response M.CategoryRelationResponse
+	err := http.Request("POST", "/category/m_get_category_prop_relation", sessionId, ctx, &request, &response)
+	if err != nil {
+		panic(err)
+	}
+
+	return response.IdRelationMap[categoryId].PropList, response.IdRelationMap[categoryId].PropValueList
 }
