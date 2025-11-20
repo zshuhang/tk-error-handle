@@ -1,5 +1,6 @@
 package model
 
+// 请求数据
 type ProductListRequest struct {
 	Filter   Filter   `json:"filter"`
 	PageInfo PageInfo `json:"page_info"`
@@ -11,6 +12,7 @@ type Filter struct {
 	ReverseType   []int  `json:"reverse_type"`
 }
 
+// 响应数据
 type ProductListResponse struct {
 	BaseResp BaseResp  `json:"base_resp"`
 	PageInfo PageInfo  `json:"page_info"`

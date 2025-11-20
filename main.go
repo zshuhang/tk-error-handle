@@ -10,6 +10,8 @@ import (
 	"time"
 	"tk-error-handle/http"
 	M "tk-error-handle/model"
+
+	"github.com/dgrijalva/jwt-go/request"
 )
 
 var ctx = context.Background()
@@ -62,7 +64,11 @@ func main() {
 
 		propList, propValueList := GetCategoryRelation(strconv.FormatInt(productDesc.CategoryID, 10))
 
-		fmt.Println(propList, propValueList)
+		checkResult, uriToCheckResult := GetCheckProductResult(productDesc, propList, propValueList)
+
+		fmt.Println(checkResult, uriToCheckResult)
+
+		// transToCheckProductParams()
 		// data, err := json.MarshalIndent(propList, "", "  ")
 		// if err != nil {
 		// 	panic(err)
@@ -172,4 +178,41 @@ func GetCategoryRelation(categoryId string) ([]M.Prop, []M.PropValue) {
 	}
 
 	return response.IdRelationMap[categoryId].PropList, response.IdRelationMap[categoryId].PropValueList
+}
+
+func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propValueList []M.PropValue) ([]M.CheckResult, map[string]M.UriToCheckResult) {
+	request := M.CheckProductRequest{
+		CheckOption: M.CheckOption{
+			CheckPrice:          false,
+			CheckCertification:  false,
+			CheckPackage:        false,
+			CheckPic:            true,
+			CheckProductDescPic: false,
+		},
+		ProductInfo: M.ProductInfo{},
+	}
+
+	request.ProductInfo.ProductName = productDesc.ProductName
+	request.ProductInfo.ProductNameEn = productDesc.ProductNameEn
+	request.ProductInfo.CategoryID = strconv.FormatInt(productDesc.CategoryID, 10)
+	request.ProductInfo.BrandID = nil
+	// request.ProductInfo.PropertiesV2 =
+	request.ProductInfo.SecurityWarningInfo = M.CheckProductSecurityWarningInfo(productDesc.SecurityWarningInfo)
+	// request.ProductInfo.SalePropertyIDList =
+	request.ProductInfo.VideoList = []any{}
+	// request.ProductInfo.MediaInfo =
+	request.ProductInfo.Grading = struct{}{}
+	request.ProductInfo.ProductDescEn = productDesc.ProductDescEn
+	request.ProductInfo.Certifications = []any{}
+	request.ProductInfo.ExcludeRegionCodes = productDesc.ExcludeRegionCodes
+	// request.ProductInfo.ManufacturerIDS =
+	// request.ProductInfo.RpIDS =
+	// request.ProductInfo.SkcDetails =
+	// request.ProductInfo.SalePropertyValueList =
+	request.ProductInfo.TicketCode = productDesc.TicketCode
+	request.ProductInfo.SpuCode = productDesc.SpuCode
+
+	fmt.Println(request)
+
+	return nil, nil
 }

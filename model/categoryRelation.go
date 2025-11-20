@@ -1,10 +1,12 @@
 package model
 
+// 请求数据
 type CategoryRelationRequest struct {
 	CategoryIds []string `json:"category_ids"`
 	RegionList  []string `json:"region_list"`
 }
 
+// 响应数据
 type CategoryRelationResponse struct {
 	BaseResp      BaseResp            `json:"base_resp"`
 	IdRelationMap map[string]Relation `json:"id_relation_map"`
@@ -23,7 +25,7 @@ type Prop struct {
 	PropertyCode  string `json:"property_code"`
 	PropertyId    int64  `json:"property_id"`
 	PropertyType  int64  `json:"property_type"`
-	TtsPropertyId int64  `json:"tts_property_id"`
+	TTSPropertyId int64  `json:"tts_property_id"`
 }
 
 type PropValue struct {
@@ -34,5 +36,5 @@ type PropValue struct {
 	NameEn             string `json:"name_en"`
 	PropertyValueCode  string `json:"property_value_code"`
 	PropertyValueId    int64  `json:"property_value_id"`
-	TtsPropertyValueId int64  `json:"tts_property_value_id"`
+	TTSPropertyValueId int64  `json:"tts_property_value_id"`
 }
