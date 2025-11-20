@@ -19,18 +19,18 @@ axios.defaults.transformResponse = [
 // 全部需要 sessionid
 
 // 获取问题列表
-// const data = await axios.request({
-//   url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/list",
-//   method: "POST",
-//   headers: {
-//     cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
-//   },
-//   data: {
-//     filter: { article_number: "MKB", reverse_status: 10 },
-//     page_info: { page_no: 5, page_size: 10 },
-//   },
-// });
-// fs.writeFileSync("productList.json", JSON.stringify(data.data, null, 2));
+const data = await axios.request({
+  url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/reverse/list",
+  method: "POST",
+  headers: {
+    cookie: "sessionid=bfa765bd3284cededa8eed1da8ad5ea3",
+  },
+  data: {
+    filter: { article_number: "TCST", reverse_status: 10 },
+    page_info: { page_no: 1, page_size: 10 },
+  },
+});
+fs.writeFileSync("productList.json", JSON.stringify(data.data, null, 2));
 
 // 获取商品详情
 // const data = await axios.request({
@@ -60,6 +60,7 @@ axios.defaults.transformResponse = [
 // });
 // fs.writeFileSync("categoryPropRelation.json", JSON.stringify(data.data, null, 2));
 
+/*
 let productDesc = JSON.parse(fs.readFileSync("./productDesc.json"));
 productDesc = productDesc.info.spu_detail;
 
@@ -230,6 +231,7 @@ let checkProductParams = {
 };
 
 fs.writeFileSync("./test.json", JSON.stringify(checkProductParams, null, 2));
+*/
 
 // 检查产品请求（图片异常）
 // const data = await axios.request({
@@ -252,6 +254,7 @@ fs.writeFileSync("./test.json", JSON.stringify(checkProductParams, null, 2));
 
 // fs.writeFileSync("./checkProductResult.json", JSON.stringify(data.data, null, 2));
 
+/*
 let checkProductResult = JSON.parse(fs.readFileSync("./checkProductResult.json"));
 
 checkProductResult = checkProductResult.picture_check_result;
@@ -302,7 +305,7 @@ const appealOrderParams = {
 };
 
 fs.writeFileSync("./createAppeal.json", JSON.stringify(appealOrderParams, null, 2));
-
+*/
 // 发起申诉请求
 // const data = await axios.request({
 //   url: "https://api16-normal-sg.tiktokshopglobalselling.com/api/full-service/product-center/appeal_order/create",
@@ -313,4 +316,4 @@ fs.writeFileSync("./createAppeal.json", JSON.stringify(appealOrderParams, null, 
 //   data: appealOrderParams
 // });
 
-console.log(data.data);
+// console.log(data.data);
