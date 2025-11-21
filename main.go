@@ -69,22 +69,19 @@ func main() {
 
 		checkResult, uriToCheckResult := GetCheckProductResult(productDesc, propList, propValueList)
 
-		fmt.Println(checkResult, uriToCheckResult)
-
-		// transToCheckProductParams()
-		// data, err := json.MarshalIndent(propList, "", "  ")
+		// data, err := json.MarshalIndent(checkResult, "", "  ")
 		// if err != nil {
 		// 	panic(err)
 		// }
-		// os.WriteFile("propListlll.json", data, 0644)
+		// os.WriteFile("qqqqq.json", data, 0644)
 
-		// data, err = json.MarshalIndent(propValueList, "", "  ")
+		// data, err = json.MarshalIndent(uriToCheckResult, "", "  ")
 		// if err != nil {
 		// 	panic(err)
 		// }
-		// os.WriteFile("propValueListlll.json", data, 0644)
+		// os.WriteFile("wwwww.json", data, 0644)
 
-		time.Sleep(30 * time.Second)
+		// time.Sleep(30 * time.Second)
 	}
 }
 
@@ -290,7 +287,7 @@ func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propVal
 
 	mediaInfo := M.CheckProductMediaInfo{
 		PictureList: pictureList,
-		PicType:     2, // TODO 收集不到此值，默认为2
+		PicType:     2, // TODO PicType 收集不到此值，默认为2
 		PicSetType:  productDesc.ProductMediaInfo.PicSet.SetType,
 	}
 
@@ -302,7 +299,107 @@ func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propVal
 		return item.ID
 	})
 
-	
+	skcDetails := lo.Map(productDesc.SkcDetails, func(item M.SkcDetail, _ int) M.CheckProductSkcDetail {
+		checkProductSkcDetail := M.CheckProductSkcDetail{}
+		checkProductSkcDetail.Index = strconv.FormatInt(item.Index, 10)
+		checkProductSkcDetail.SkcCode = item.SkcCode
+
+		checkProductSkcDetailSaleProperty := M.CheckProductSaleProperty{}
+		checkProductSkcDetailSaleProperty.PropertyValueID = strconv.FormatInt(item.SalePropertyValueInfo.PropertyValueId, 10)
+		valueId := strconv.FormatInt(item.SalePropertyValueInfo.TTSPropertyValueId, 10)
+		checkProductSkcDetailSaleProperty.TTSPropertyValueID = &valueId
+		checkProductSkcDetail.SaleProperty = checkProductSkcDetailSaleProperty
+
+		checkProductSkcDetailMediaInfo := M.CheckProductSkcDetailMediaInfo{}
+		// checkProductSkcDetailMediaInfo.PictureList = item.PictureUrls
+		checkProductSkcDetailMediaInfo.PictureList = []M.CheckProductPicture{} // TODO PictureList 这里的值应该是PictureUrls，但是由于类型定义过于冗余，现在赋值有问题，默认赋值为空数组
+		checkProductSkcDetailMediaInfo.PicType = 2                             // TODO PicType 收集不到此值，默认为2
+		checkProductSkcDetail.MediaInfo = checkProductSkcDetailMediaInfo
+
+		checkProductSkcDetail.SkuDetails = lo.Map(item.SkuDetails, func(el M.SkuDetail, _ int) M.CheckProductSkuDetail {
+			checkProductSkuDetail := M.CheckProductSkuDetail{}
+			checkProductSkuDetail.SkuCode = el.SkuCode
+
+			mediaInfo := M.CheckProductSkcDetailMediaInfo{}
+			mediaInfo.PictureList = lo.Map(productDesc.ProductMediaInfo.PicSet.ObjectMaterial[el.SkuCode], func(elItem M.ObjectMaterialObj, _ int) M.CheckProductPicture {
+				checkProductPicture := M.CheckProductPicture{}
+				checkProductPicture.ID = strconv.FormatInt(elItem.ID, 10)
+				checkProductPicture.MaterialShowType = elItem.MaterialShowType
+				checkProductPicture.LinkType = elItem.LinkType
+				checkProductPicture.OrderNum = strconv.FormatInt(elItem.OrderNum, 10)
+
+				extra := M.CheckProductMaterialExtra{}
+				extra.Format = elItem.Material.Extra.Format
+				extra.Height = strconv.FormatInt(elItem.Material.Extra.Height, 10)
+				extra.Name = elItem.Material.Extra.Name
+				extra.Resolution = elItem.Material.Extra.Resolution
+				extra.Size = strconv.FormatInt(elItem.Material.Extra.Size, 10)
+				extra.TargetHeight = strconv.FormatInt(elItem.Material.Extra.TargetHeight, 10)
+				extra.TargetWidth = strconv.FormatInt(elItem.Material.Extra.TargetWidth, 10)
+				extra.URIVa = elItem.Material.Extra.URIVa
+				extra.VDuration = strconv.FormatInt(elItem.Material.Extra.VDuration, 10)
+				extra.Width = strconv.FormatInt(elItem.Material.Extra.Width, 10)
+
+				recognitionRes := lo.Map(elItem.Material.RecognitionRes, func(el M.RecognitionRe, _ int) M.CheckProductRecognition {
+					checkProductRecognition := M.CheckProductRecognition{}
+					checkProductRecognition.Actions = el.Actions
+					checkProductRecognition.PicRecID = strconv.FormatInt(el.PicRecID, 10)
+					checkProductRecognition.RecTimeMS = strconv.FormatInt(el.RecTimeMS, 10)
+					checkProductRecognition.RecognitionAlgorithm = el.RecognitionAlgorithm
+					checkProductRecognition.Score = el.Score
+					checkProductRecognition.Status = el.Status
+					checkProductRecognition.Type = el.Type
+					return checkProductRecognition
+				})
+
+				material := M.CheckProductMaterial{
+					Extra:          extra,
+					ID:             strconv.FormatInt(elItem.Material.ID, 10),
+					MaterialStatus: elItem.Material.MaterialStatus,
+					MaterialType:   elItem.Material.MaterialType,
+					Name:           elItem.Material.Name,
+					ParentID:       strconv.FormatInt(elItem.Material.ParentID, 10),
+					RecognitionRes: recognitionRes,
+					SellerID:       strconv.FormatInt(elItem.Material.SellerID, 10),
+					ShopID:         strconv.FormatInt(elItem.Material.ShopID, 10),
+					Size:           strconv.FormatInt(elItem.Material.Size, 10),
+					URI:            elItem.Material.URI,
+					URLMap:         elItem.Material.URLMap,
+					Vid:            elItem.Material.Vid,
+				}
+
+				checkProductPicture.Material = material
+				return checkProductPicture
+			})
+			mediaInfo.PicType = 2 // TODO PicType 收集不到此值，默认为2
+			checkProductSkuDetail.MediaInfo = mediaInfo
+
+			checkProductSkuDetail.SalePropertyList = lo.Map(el.SalePropertyList, func(elItem M.SalePropertyValueInfo, _ int) M.CheckProductSaleProperty {
+				checkProductSaleProperty := M.CheckProductSaleProperty{}
+				checkProductSaleProperty.PropertyValueID = strconv.FormatInt(elItem.PropertyValueId, 10)
+				valueId := strconv.FormatInt(elItem.TTSPropertyValueId, 10)
+				checkProductSaleProperty.TTSPropertyValueID = &valueId
+				return checkProductSaleProperty
+			})
+			checkProductSkuDetail.PackageLongestLength = strconv.FormatInt(el.PackageLongestLength, 10)
+			checkProductSkuDetail.PackageShortestLength = strconv.FormatInt(el.PackageShortestLength, 10)
+			checkProductSkuDetail.PackageMiddleLength = strconv.FormatInt(el.PackageMiddleLength, 10)
+			checkProductSkuDetail.PackageWeight = strconv.FormatInt(el.PackageWeight, 10)
+			checkProductSkuDetail.ArticleNumber = el.ArticleNumber
+			checkProductSkuDetail.Price = strconv.FormatInt(el.Price, 10)
+			checkProductSkuDetail.ProductStatus = true // TODO ProductStatus 收集不到此值，默认为true
+			checkProductSkuDetail.Stock = strconv.FormatInt(el.Stock, 10)
+			checkProductSkuDetail.SupplyPriceCurrencyType = el.PriceCurrencyType
+			checkProductSkuDetail.GoodsInStock = true // TODO GoodsInStock 收集不到此值，默认为true
+			checkProductSkuDetail.StockMode = el.StockMode
+			return checkProductSkuDetail
+		})
+
+		checkProductSkcDetail.ArticleNumber = item.ArticleNumber
+		checkProductSkcDetail.StockMode = item.SkuDetails[0].StockMode
+
+		return checkProductSkcDetail
+	})
 
 	salePropertyValueList := lo.Map(productDesc.SalePropertyList, func(item M.SalePropertyList, _ int) []M.SalePropertyValueList {
 		return lo.Map(item.PropertyValues, func(el M.SalePropertyValue, _ int) M.SalePropertyValueList {
@@ -329,16 +426,16 @@ func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propVal
 	request.ProductInfo.ExcludeRegionCodes = productDesc.ExcludeRegionCodes
 	request.ProductInfo.ManufacturerIDS = manufacturerIDS
 	request.ProductInfo.RpIDS = rpIDS
-	// request.ProductInfo.SkcDetails =
+	request.ProductInfo.SkcDetails = skcDetails
 	request.ProductInfo.SalePropertyValueList = salePropertyValueList
 	request.ProductInfo.TicketCode = productDesc.TicketCode
 	request.ProductInfo.SpuCode = productDesc.SpuCode
 
-	data, err := json.MarshalIndent(request, "", "  ")
+	var response M.CheckProductResponse
+	err := http.Request("POST", "/check/check_product", sessionId, ctx, &request, &response)
 	if err != nil {
 		panic(err)
 	}
-	os.WriteFile("dawdasdw.json", data, 0644)
 
-	return nil, nil
+	return response.PictureCheckResult.CheckResultMap, response.PictureCheckResult.UriToCheckResultMap
 }

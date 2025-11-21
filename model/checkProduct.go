@@ -167,7 +167,7 @@ type CheckProductResponse struct {
 	PictureCheckResult PictureCheckResult `json:"picture_check_result"`
 }
 
-type PictureCheckResult struct {
+type 	PictureCheckResult struct {
 	CheckResultMap      []CheckResult               `json:"check_result_map"`
 	UriToCheckResultMap map[string]UriToCheckResult `json:"uri_to_check_result_map"`
 }
@@ -181,8 +181,8 @@ type CheckResult struct {
 
 type RecognitionResultItem struct {
 	Actions              []int64 `json:"actions"`
-	PicRecId             string  `json:"pic_rec_id"`
-	RecTimeMs            string  `json:"rec_time_ms"`
+	PicRecId             int64  `json:"pic_rec_id"`
+	RecTimeMs            int64  `json:"rec_time_ms"`
 	RecognitionAlgorithm int64   `json:"recognitionAlgorithm"`
 	Score                int64   `json:"score"`
 	Status               int64   `json:"status"`
