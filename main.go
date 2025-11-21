@@ -6,12 +6,15 @@ import (
 	"errors"
 	"fmt"
 	"os"
-	"strconv"
 	"time"
+
+	// "github.com/dgrijalva/jwt-go/request"
+	"github.com/samber/lo"
+
+	"strconv"
+
 	"tk-error-handle/http"
 	M "tk-error-handle/model"
-
-	"github.com/dgrijalva/jwt-go/request"
 )
 
 var ctx = context.Background()
@@ -81,7 +84,7 @@ func main() {
 		// }
 		// os.WriteFile("propValueListlll.json", data, 0644)
 
-		// time.Sleep(30 * time.Second)
+		time.Sleep(30 * time.Second)
 	}
 }
 
@@ -192,27 +195,150 @@ func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propVal
 		ProductInfo: M.ProductInfo{},
 	}
 
+	propertiesV2 := lo.Map(productDesc.PropertiesV2, func(item M.PropertiesV2, _ int) M.CheckProductPropertiesV2 {
+		propertyRelation, _ := lo.Find(propList, func(el M.Prop) bool {
+			return el.PropertyId == item.Property.PropertyID
+		})
+
+		checkProductPropertyList := lo.Map(item.Property.PropertyValueList, func(el M.PropertyValue, _ int) M.CheckProductPropertyValue {
+			propertyValueRelation, ok := lo.Find(propValueList, func(elItem M.PropValue) bool { return elItem.PropertyValueId == el.PropertyValueID })
+			data := M.CheckProductPropertyValue{}
+			data.PropertyValueCN = el.PropertyValueCN
+			data.PropertyValueCode = el.PropertyValueCode
+			data.PropertyValueEn = el.PropertyValueEn
+			data.PropertyValueID = strconv.FormatInt(el.PropertyValueID, 10)
+			if ok {
+				TTSPropertyValueId := strconv.FormatInt(propertyValueRelation.TTSPropertyValueId, 10)
+				if TTSPropertyValueId != "0" {
+					data.TTSAttributeValueID = TTSPropertyValueId
+				}
+			}
+			return data
+		})
+
+		checkProductProperty := M.CheckProductProperty{}
+		checkProductProperty.PropertyID = strconv.FormatInt(item.Property.PropertyID, 10)
+		checkProductProperty.PropertyCode = item.Property.PropertyCode
+		checkProductProperty.PropertyValueList = checkProductPropertyList
+		checkProductProperty.TTSAttributeID = strconv.FormatInt(propertyRelation.TTSPropertyId, 10)
+
+		checkProductPropertiesV2 := M.CheckProductPropertiesV2{}
+		checkProductPropertiesV2.Property = checkProductProperty
+		checkProductPropertiesV2.Region = item.Region
+
+		return checkProductPropertiesV2
+	})
+
+	salePropertyIDList := lo.Map(productDesc.SalePropertyList, func(item M.SalePropertyList, _ int) M.SalePropertyIDList {
+		salePropertyIDItem := M.SalePropertyIDList{}
+		salePropertyIDItem.PropertyID = strconv.FormatInt(item.Property.PropertyID, 10)
+		salePropertyIDItem.TTSPropertyID = strconv.FormatInt(item.Property.TTSPropertyID, 10)
+		return salePropertyIDItem
+	})
+
+	pictureList := lo.Map(productDesc.ProductMediaInfo.PicSet.SpuMaterial, func(item M.SpuMaterial, _ int) M.CheckProductPicture {
+		extra := M.CheckProductMaterialExtra{}
+		extra.Format = item.Material.Extra.Format
+		extra.Height = strconv.FormatInt(item.Material.Extra.Height, 10)
+		extra.Name = item.Material.Extra.Name
+		extra.Resolution = item.Material.Extra.Resolution
+		extra.Size = strconv.FormatInt(item.Material.Extra.Size, 10)
+		extra.TargetHeight = strconv.FormatInt(item.Material.Extra.TargetHeight, 10)
+		extra.TargetWidth = strconv.FormatInt(item.Material.Extra.TargetWidth, 10)
+		extra.URIVa = item.Material.Extra.URIVa
+		extra.VDuration = strconv.FormatInt(item.Material.Extra.VDuration, 10)
+		extra.Width = strconv.FormatInt(item.Material.Extra.Width, 10)
+
+		recognitionRes := lo.Map(item.Material.RecognitionRes, func(el M.RecognitionRe, _ int) M.CheckProductRecognition {
+			checkProductRecognition := M.CheckProductRecognition{}
+			checkProductRecognition.Actions = el.Actions
+			checkProductRecognition.PicRecID = strconv.FormatInt(el.PicRecID, 10)
+			checkProductRecognition.RecTimeMS = strconv.FormatInt(el.RecTimeMS, 10)
+			checkProductRecognition.RecognitionAlgorithm = el.RecognitionAlgorithm
+			checkProductRecognition.Score = el.Score
+			checkProductRecognition.Status = el.Status
+			checkProductRecognition.Type = el.Type
+			return checkProductRecognition
+		})
+
+		material := M.CheckProductMaterial{
+			Extra:          extra,
+			ID:             strconv.FormatInt(item.Material.ID, 10),
+			MaterialStatus: item.Material.MaterialStatus,
+			MaterialType:   item.Material.MaterialType,
+			Name:           item.Material.Name,
+			ParentID:       strconv.FormatInt(item.Material.ParentID, 10),
+			RecognitionRes: recognitionRes,
+			SellerID:       strconv.FormatInt(item.Material.SellerID, 10),
+			ShopID:         strconv.FormatInt(item.Material.ShopID, 10),
+			Size:           strconv.FormatInt(item.Material.Size, 10),
+			URI:            item.Material.URI,
+			URLMap:         item.Material.URLMap,
+			Vid:            item.Material.Vid,
+		}
+
+		checkProductPicture := M.CheckProductPicture{}
+		checkProductPicture.ID = strconv.FormatInt(item.ID, 10)
+		checkProductPicture.LinkType = item.LinkType
+		checkProductPicture.MaterialShowType = item.MaterialShowType
+		checkProductPicture.MaterialUseTypeCode = &item.MaterialUseTypeCode
+		checkProductPicture.OrderNum = strconv.FormatInt(item.OrderNum, 10)
+		checkProductPicture.Material = material
+
+		return checkProductPicture
+	})
+
+	mediaInfo := M.CheckProductMediaInfo{
+		PictureList: pictureList,
+		PicType:     2, // TODO 收集不到此值，默认为2
+		PicSetType:  productDesc.ProductMediaInfo.PicSet.SetType,
+	}
+
+	manufacturerIDS := lo.Map(productDesc.ManufacturerInfos, func(item M.ManufacturerInfo, _ int) string {
+		return item.ID
+	})
+
+	rpIDS := lo.Map(productDesc.RpModels, func(item M.RpModel, _ int) string {
+		return item.ID
+	})
+
+	
+
+	salePropertyValueList := lo.Map(productDesc.SalePropertyList, func(item M.SalePropertyList, _ int) []M.SalePropertyValueList {
+		return lo.Map(item.PropertyValues, func(el M.SalePropertyValue, _ int) M.SalePropertyValueList {
+			salePropertyValueList := M.SalePropertyValueList{}
+			salePropertyValueList.PlmPropertyValueID = strconv.FormatInt(el.PropertyValueID, 10)
+			valueId := strconv.FormatInt(el.TTSPropertyValueID, 10)
+			salePropertyValueList.PlmTTSAttributeValueID = &valueId
+			return salePropertyValueList
+		})
+	})
+
 	request.ProductInfo.ProductName = productDesc.ProductName
 	request.ProductInfo.ProductNameEn = productDesc.ProductNameEn
 	request.ProductInfo.CategoryID = strconv.FormatInt(productDesc.CategoryID, 10)
 	request.ProductInfo.BrandID = nil
-	// request.ProductInfo.PropertiesV2 =
+	request.ProductInfo.PropertiesV2 = propertiesV2
 	request.ProductInfo.SecurityWarningInfo = M.CheckProductSecurityWarningInfo(productDesc.SecurityWarningInfo)
-	// request.ProductInfo.SalePropertyIDList =
+	request.ProductInfo.SalePropertyIDList = salePropertyIDList
 	request.ProductInfo.VideoList = []any{}
-	// request.ProductInfo.MediaInfo =
+	request.ProductInfo.MediaInfo = mediaInfo
 	request.ProductInfo.Grading = struct{}{}
 	request.ProductInfo.ProductDescEn = productDesc.ProductDescEn
 	request.ProductInfo.Certifications = []any{}
 	request.ProductInfo.ExcludeRegionCodes = productDesc.ExcludeRegionCodes
-	// request.ProductInfo.ManufacturerIDS =
-	// request.ProductInfo.RpIDS =
+	request.ProductInfo.ManufacturerIDS = manufacturerIDS
+	request.ProductInfo.RpIDS = rpIDS
 	// request.ProductInfo.SkcDetails =
-	// request.ProductInfo.SalePropertyValueList =
+	request.ProductInfo.SalePropertyValueList = salePropertyValueList
 	request.ProductInfo.TicketCode = productDesc.TicketCode
 	request.ProductInfo.SpuCode = productDesc.SpuCode
 
-	fmt.Println(request)
+	data, err := json.MarshalIndent(request, "", "  ")
+	if err != nil {
+		panic(err)
+	}
+	os.WriteFile("dawdasdw.json", data, 0644)
 
 	return nil, nil
 }

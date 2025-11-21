@@ -128,10 +128,10 @@ type PropertiesV2 struct {
 type PropertiesV2Property struct {
 	PropertyCode      string              `json:"property_code"`
 	PropertyID        int64               `json:"property_id"`
-	PropertyValueList []PropertyValueList `json:"property_value_list"`
+	PropertyValueList []PropertyValue `json:"property_value_list"`
 }
 
-type PropertyValueList struct {
+type PropertyValue struct {
 	PropertyValueCN   string `json:"property_value_cn"`
 	PropertyValueCode string `json:"property_value_code"`
 	PropertyValueEn   string `json:"property_value_en"`

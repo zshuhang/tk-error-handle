@@ -13,7 +13,7 @@
     "brand_id": null,
     "properties_v2": [
       {
-        "region": "SA",
+        "region": "ES",
         "property": {
           "property_value_list": [
             {
@@ -30,24 +30,7 @@
         }
       },
       {
-        "region": "GB",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7283414885039867650",
-              "property_value_code": "NON_SENSITIVE_GOOD",
-              "property_value_cn": "非敏感品",
-              "property_value_en": "Non Sensitive Good",
-              "tts_attribute_value_id": "1021444"
-            }
-          ],
-          "property_id": "7279692131945629442",
-          "property_code": "SENSITIVE_GOODS_TYPE",
-          "tts_attribute_id": "101372"
-        }
-      },
-      {
-        "region": "US",
+        "region": "JP",
         "property": {
           "property_value_list": [
             {
@@ -81,7 +64,7 @@
         }
       },
       {
-        "region": "DE",
+        "region": "US",
         "property": {
           "property_value_list": [
             {
@@ -115,7 +98,41 @@
         }
       },
       {
-        "region": "ES",
+        "region": "GB",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7283414885039867650",
+              "property_value_code": "NON_SENSITIVE_GOOD",
+              "property_value_cn": "非敏感品",
+              "property_value_en": "Non Sensitive Good",
+              "tts_attribute_value_id": "1021444"
+            }
+          ],
+          "property_id": "7279692131945629442",
+          "property_code": "SENSITIVE_GOODS_TYPE",
+          "tts_attribute_id": "101372"
+        }
+      },
+      {
+        "region": "SA",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7283414885039867650",
+              "property_value_code": "NON_SENSITIVE_GOOD",
+              "property_value_cn": "非敏感品",
+              "property_value_en": "Non Sensitive Good",
+              "tts_attribute_value_id": "1021444"
+            }
+          ],
+          "property_id": "7279692131945629442",
+          "property_code": "SENSITIVE_GOODS_TYPE",
+          "tts_attribute_id": "101372"
+        }
+      },
+      {
+        "region": "DE",
         "property": {
           "property_value_list": [
             {
@@ -153,39 +170,6 @@
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7283414885039867650",
-              "property_value_code": "NON_SENSITIVE_GOOD",
-              "property_value_cn": "非敏感品",
-              "property_value_en": "Non Sensitive Good",
-              "tts_attribute_value_id": "1021444"
-            }
-          ],
-          "property_id": "7279692131945629442",
-          "property_code": "SENSITIVE_GOODS_TYPE",
-          "tts_attribute_id": "101372"
-        }
-      },
-      {
-        "region": "SA",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7517194954022094599",
-              "property_value_code": "7517194954022094599",
-              "property_value_cn": "52AIE28",
-              "property_value_en": "52AIE28"
-            }
-          ],
-          "property_id": "7476356513692862228",
-          "property_code": "FDA_PRODUCT_CODE",
-          "tts_attribute_id": "102388"
-        }
-      },
-      {
-        "region": "GB",
-        "property": {
-          "property_value_list": [
-            {
               "property_value_id": "7517194954022094599",
               "property_value_code": "7517194954022094599",
               "property_value_cn": "52AIE28",
@@ -199,6 +183,22 @@
       },
       {
         "region": "US",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7517194954022094599",
+              "property_value_code": "7517194954022094599",
+              "property_value_cn": "52AIE28",
+              "property_value_en": "52AIE28"
+            }
+          ],
+          "property_id": "7476356513692862228",
+          "property_code": "FDA_PRODUCT_CODE",
+          "tts_attribute_id": "102388"
+        }
+      },
+      {
+        "region": "SA",
         "property": {
           "property_value_list": [
             {
@@ -230,7 +230,23 @@
         }
       },
       {
-        "region": "DE",
+        "region": "ES",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7517194954022094599",
+              "property_value_code": "7517194954022094599",
+              "property_value_cn": "52AIE28",
+              "property_value_en": "52AIE28"
+            }
+          ],
+          "property_id": "7476356513692862228",
+          "property_code": "FDA_PRODUCT_CODE",
+          "tts_attribute_id": "102388"
+        }
+      },
+      {
+        "region": "GB",
         "property": {
           "property_value_list": [
             {
@@ -262,22 +278,6 @@
         }
       },
       {
-        "region": "ES",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7517194954022094599",
-              "property_value_code": "7517194954022094599",
-              "property_value_cn": "52AIE28",
-              "property_value_en": "52AIE28"
-            }
-          ],
-          "property_id": "7476356513692862228",
-          "property_code": "FDA_PRODUCT_CODE",
-          "tts_attribute_id": "102388"
-        }
-      },
-      {
         "region": "MX",
         "property": {
           "property_value_list": [
@@ -294,7 +294,7 @@
         }
       },
       {
-        "region": "JP",
+        "region": "DE",
         "property": {
           "property_value_list": [
             {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "region": "SA",
+        "region": "MX",
         "property": {
           "property_value_list": [
             {
@@ -328,108 +328,6 @@
       },
       {
         "region": "GB",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338707075029780232",
-              "property_value_code": "RE_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338248934568003346",
-          "property_code": "CA_PROP_65_RE",
-          "tts_attribute_id": "101395"
-        }
-      },
-      {
-        "region": "US",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338707075029780232",
-              "property_value_code": "RE_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338248934568003346",
-          "property_code": "CA_PROP_65_RE",
-          "tts_attribute_id": "101395"
-        }
-      },
-      {
-        "region": "FR",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338707075029780232",
-              "property_value_code": "RE_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338248934568003346",
-          "property_code": "CA_PROP_65_RE",
-          "tts_attribute_id": "101395"
-        }
-      },
-      {
-        "region": "DE",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338707075029780232",
-              "property_value_code": "RE_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338248934568003346",
-          "property_code": "CA_PROP_65_RE",
-          "tts_attribute_id": "101395"
-        }
-      },
-      {
-        "region": "IT",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338707075029780232",
-              "property_value_code": "RE_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338248934568003346",
-          "property_code": "CA_PROP_65_RE",
-          "tts_attribute_id": "101395"
-        }
-      },
-      {
-        "region": "ES",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338707075029780232",
-              "property_value_code": "RE_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338248934568003346",
-          "property_code": "CA_PROP_65_RE",
-          "tts_attribute_id": "101395"
-        }
-      },
-      {
-        "region": "MX",
         "property": {
           "property_value_list": [
             {
@@ -463,88 +361,20 @@
         }
       },
       {
-        "region": "SA",
+        "region": "ES",
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7202070400996640514",
-              "property_value_code": "REGION_OF_ORIGIN_CHINA",
-              "property_value_cn": "中国",
-              "property_value_en": "China",
-              "tts_attribute_value_id": "1000850"
+              "property_value_id": "7338707075029780232",
+              "property_value_code": "RE_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
             }
           ],
-          "property_id": "7202070388964542209",
-          "property_code": "REGION_OF_ORIGIN",
-          "tts_attribute_id": "100336"
-        }
-      },
-      {
-        "region": "GB",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7202070400996640514",
-              "property_value_code": "REGION_OF_ORIGIN_CHINA",
-              "property_value_cn": "中国",
-              "property_value_en": "China",
-              "tts_attribute_value_id": "1000850"
-            }
-          ],
-          "property_id": "7202070388964542209",
-          "property_code": "REGION_OF_ORIGIN",
-          "tts_attribute_id": "100336"
-        }
-      },
-      {
-        "region": "US",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7202070400996640514",
-              "property_value_code": "REGION_OF_ORIGIN_CHINA",
-              "property_value_cn": "中国",
-              "property_value_en": "China",
-              "tts_attribute_value_id": "1000850"
-            }
-          ],
-          "property_id": "7202070388964542209",
-          "property_code": "REGION_OF_ORIGIN",
-          "tts_attribute_id": "100336"
-        }
-      },
-      {
-        "region": "FR",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7202070400996640514",
-              "property_value_code": "REGION_OF_ORIGIN_CHINA",
-              "property_value_cn": "中国",
-              "property_value_en": "China",
-              "tts_attribute_value_id": "1000850"
-            }
-          ],
-          "property_id": "7202070388964542209",
-          "property_code": "REGION_OF_ORIGIN",
-          "tts_attribute_id": "100336"
-        }
-      },
-      {
-        "region": "DE",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7202070400996640514",
-              "property_value_code": "REGION_OF_ORIGIN_CHINA",
-              "property_value_cn": "中国",
-              "property_value_en": "China",
-              "tts_attribute_value_id": "1000850"
-            }
-          ],
-          "property_id": "7202070388964542209",
-          "property_code": "REGION_OF_ORIGIN",
-          "tts_attribute_id": "100336"
+          "property_id": "7338248934568003346",
+          "property_code": "CA_PROP_65_RE",
+          "tts_attribute_id": "101395"
         }
       },
       {
@@ -552,20 +382,88 @@
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7202070400996640514",
-              "property_value_code": "REGION_OF_ORIGIN_CHINA",
-              "property_value_cn": "中国",
-              "property_value_en": "China",
-              "tts_attribute_value_id": "1000850"
+              "property_value_id": "7338707075029780232",
+              "property_value_code": "RE_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
             }
           ],
-          "property_id": "7202070388964542209",
-          "property_code": "REGION_OF_ORIGIN",
-          "tts_attribute_id": "100336"
+          "property_id": "7338248934568003346",
+          "property_code": "CA_PROP_65_RE",
+          "tts_attribute_id": "101395"
         }
       },
       {
-        "region": "ES",
+        "region": "SA",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338707075029780232",
+              "property_value_code": "RE_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338248934568003346",
+          "property_code": "CA_PROP_65_RE",
+          "tts_attribute_id": "101395"
+        }
+      },
+      {
+        "region": "DE",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338707075029780232",
+              "property_value_code": "RE_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338248934568003346",
+          "property_code": "CA_PROP_65_RE",
+          "tts_attribute_id": "101395"
+        }
+      },
+      {
+        "region": "US",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338707075029780232",
+              "property_value_code": "RE_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338248934568003346",
+          "property_code": "CA_PROP_65_RE",
+          "tts_attribute_id": "101395"
+        }
+      },
+      {
+        "region": "FR",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338707075029780232",
+              "property_value_code": "RE_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338248934568003346",
+          "property_code": "CA_PROP_65_RE",
+          "tts_attribute_id": "101395"
+        }
+      },
+      {
+        "region": "SA",
         "property": {
           "property_value_list": [
             {
@@ -616,37 +514,20 @@
         }
       },
       {
-        "region": "SA",
+        "region": "IT",
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7509738714275006215",
-              "property_value_code": "WSDFGHNGFDSXZASEDR",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
+              "property_value_id": "7202070400996640514",
+              "property_value_code": "REGION_OF_ORIGIN_CHINA",
+              "property_value_cn": "中国",
+              "property_value_en": "China",
+              "tts_attribute_value_id": "1000850"
             }
           ],
-          "property_id": "7509392418581219079",
-          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
-          "tts_attribute_id": "102517"
-        }
-      },
-      {
-        "region": "GB",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7509738714275006215",
-              "property_value_code": "WSDFGHNGFDSXZASEDR",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7509392418581219079",
-          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
-          "tts_attribute_id": "102517"
+          "property_id": "7202070388964542209",
+          "property_code": "REGION_OF_ORIGIN",
+          "tts_attribute_id": "100336"
         }
       },
       {
@@ -654,33 +535,16 @@
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7509738714275006215",
-              "property_value_code": "WSDFGHNGFDSXZASEDR",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
+              "property_value_id": "7202070400996640514",
+              "property_value_code": "REGION_OF_ORIGIN_CHINA",
+              "property_value_cn": "中国",
+              "property_value_en": "China",
+              "tts_attribute_value_id": "1000850"
             }
           ],
-          "property_id": "7509392418581219079",
-          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
-          "tts_attribute_id": "102517"
-        }
-      },
-      {
-        "region": "FR",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7509738714275006215",
-              "property_value_code": "WSDFGHNGFDSXZASEDR",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7509392418581219079",
-          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
-          "tts_attribute_id": "102517"
+          "property_id": "7202070388964542209",
+          "property_code": "REGION_OF_ORIGIN",
+          "tts_attribute_id": "100336"
         }
       },
       {
@@ -688,20 +552,71 @@
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7509738714275006215",
-              "property_value_code": "WSDFGHNGFDSXZASEDR",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
+              "property_value_id": "7202070400996640514",
+              "property_value_code": "REGION_OF_ORIGIN_CHINA",
+              "property_value_cn": "中国",
+              "property_value_en": "China",
+              "tts_attribute_value_id": "1000850"
             }
           ],
-          "property_id": "7509392418581219079",
-          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
-          "tts_attribute_id": "102517"
+          "property_id": "7202070388964542209",
+          "property_code": "REGION_OF_ORIGIN",
+          "tts_attribute_id": "100336"
         }
       },
       {
-        "region": "IT",
+        "region": "FR",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7202070400996640514",
+              "property_value_code": "REGION_OF_ORIGIN_CHINA",
+              "property_value_cn": "中国",
+              "property_value_en": "China",
+              "tts_attribute_value_id": "1000850"
+            }
+          ],
+          "property_id": "7202070388964542209",
+          "property_code": "REGION_OF_ORIGIN",
+          "tts_attribute_id": "100336"
+        }
+      },
+      {
+        "region": "GB",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7202070400996640514",
+              "property_value_code": "REGION_OF_ORIGIN_CHINA",
+              "property_value_cn": "中国",
+              "property_value_en": "China",
+              "tts_attribute_value_id": "1000850"
+            }
+          ],
+          "property_id": "7202070388964542209",
+          "property_code": "REGION_OF_ORIGIN",
+          "tts_attribute_id": "100336"
+        }
+      },
+      {
+        "region": "ES",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7202070400996640514",
+              "property_value_code": "REGION_OF_ORIGIN_CHINA",
+              "property_value_cn": "中国",
+              "property_value_en": "China",
+              "tts_attribute_value_id": "1000850"
+            }
+          ],
+          "property_id": "7202070388964542209",
+          "property_code": "REGION_OF_ORIGIN",
+          "tts_attribute_id": "100336"
+        }
+      },
+      {
+        "region": "JP",
         "property": {
           "property_value_list": [
             {
@@ -752,7 +667,24 @@
         }
       },
       {
-        "region": "JP",
+        "region": "GB",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7509738714275006215",
+              "property_value_code": "WSDFGHNGFDSXZASEDR",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7509392418581219079",
+          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+          "tts_attribute_id": "102517"
+        }
+      },
+      {
+        "region": "US",
         "property": {
           "property_value_list": [
             {
@@ -773,33 +705,67 @@
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7338649511073875730",
-              "property_value_code": "CA_NO",
+              "property_value_id": "7509738714275006215",
+              "property_value_code": "WSDFGHNGFDSXZASEDR",
               "property_value_cn": "否",
               "property_value_en": "No",
               "tts_attribute_value_id": "1000059"
             }
           ],
-          "property_id": "7338261380909713159",
-          "property_code": "CA_PROP_65_CA",
-          "tts_attribute_id": "101400"
+          "property_id": "7509392418581219079",
+          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+          "tts_attribute_id": "102517"
         }
       },
       {
-        "region": "GB",
+        "region": "DE",
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7338649511073875730",
-              "property_value_code": "CA_NO",
+              "property_value_id": "7509738714275006215",
+              "property_value_code": "WSDFGHNGFDSXZASEDR",
               "property_value_cn": "否",
               "property_value_en": "No",
               "tts_attribute_value_id": "1000059"
             }
           ],
-          "property_id": "7338261380909713159",
-          "property_code": "CA_PROP_65_CA",
-          "tts_attribute_id": "101400"
+          "property_id": "7509392418581219079",
+          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+          "tts_attribute_id": "102517"
+        }
+      },
+      {
+        "region": "FR",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7509738714275006215",
+              "property_value_code": "WSDFGHNGFDSXZASEDR",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7509392418581219079",
+          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+          "tts_attribute_id": "102517"
+        }
+      },
+      {
+        "region": "IT",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7509738714275006215",
+              "property_value_code": "WSDFGHNGFDSXZASEDR",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7509392418581219079",
+          "property_code": "PRODUCT_CONTAIN_WOODEN_MATERIALS",
+          "tts_attribute_id": "102517"
         }
       },
       {
@@ -854,41 +820,7 @@
         }
       },
       {
-        "region": "IT",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338649511073875730",
-              "property_value_code": "CA_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338261380909713159",
-          "property_code": "CA_PROP_65_CA",
-          "tts_attribute_id": "101400"
-        }
-      },
-      {
-        "region": "ES",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7338649511073875730",
-              "property_value_code": "CA_NO",
-              "property_value_cn": "否",
-              "property_value_en": "No",
-              "tts_attribute_value_id": "1000059"
-            }
-          ],
-          "property_id": "7338261380909713159",
-          "property_code": "CA_PROP_65_CA",
-          "tts_attribute_id": "101400"
-        }
-      },
-      {
-        "region": "MX",
+        "region": "GB",
         "property": {
           "property_value_list": [
             {
@@ -922,6 +854,74 @@
         }
       },
       {
+        "region": "MX",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338649511073875730",
+              "property_value_code": "CA_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338261380909713159",
+          "property_code": "CA_PROP_65_CA",
+          "tts_attribute_id": "101400"
+        }
+      },
+      {
+        "region": "IT",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338649511073875730",
+              "property_value_code": "CA_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338261380909713159",
+          "property_code": "CA_PROP_65_CA",
+          "tts_attribute_id": "101400"
+        }
+      },
+      {
+        "region": "SA",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338649511073875730",
+              "property_value_code": "CA_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338261380909713159",
+          "property_code": "CA_PROP_65_CA",
+          "tts_attribute_id": "101400"
+        }
+      },
+      {
+        "region": "ES",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7338649511073875730",
+              "property_value_code": "CA_NO",
+              "property_value_cn": "否",
+              "property_value_en": "No",
+              "tts_attribute_value_id": "1000059"
+            }
+          ],
+          "property_id": "7338261380909713159",
+          "property_code": "CA_PROP_65_CA",
+          "tts_attribute_id": "101400"
+        }
+      },
+      {
         "region": "SA",
         "property": {
           "property_value_list": [
@@ -939,7 +939,7 @@
         }
       },
       {
-        "region": "GB",
+        "region": "ES",
         "property": {
           "property_value_list": [
             {
@@ -956,24 +956,7 @@
         }
       },
       {
-        "region": "US",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7127945873471948545",
-              "property_value_code": "1_PIECE",
-              "property_value_cn": "1件",
-              "property_value_en": "1 Piece",
-              "tts_attribute_value_id": "1003806"
-            }
-          ],
-          "property_id": "7125759180389156610",
-          "property_code": "QUANTITY",
-          "tts_attribute_id": "100347"
-        }
-      },
-      {
-        "region": "FR",
+        "region": "IT",
         "property": {
           "property_value_list": [
             {
@@ -1007,7 +990,7 @@
         }
       },
       {
-        "region": "IT",
+        "region": "FR",
         "property": {
           "property_value_list": [
             {
@@ -1024,7 +1007,7 @@
         }
       },
       {
-        "region": "ES",
+        "region": "GB",
         "property": {
           "property_value_list": [
             {
@@ -1058,6 +1041,23 @@
         }
       },
       {
+        "region": "US",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7127945873471948545",
+              "property_value_code": "1_PIECE",
+              "property_value_cn": "1件",
+              "property_value_en": "1 Piece",
+              "tts_attribute_value_id": "1003806"
+            }
+          ],
+          "property_id": "7125759180389156610",
+          "property_code": "QUANTITY",
+          "tts_attribute_id": "100347"
+        }
+      },
+      {
         "region": "JP",
         "property": {
           "property_value_list": [
@@ -1075,7 +1075,7 @@
         }
       },
       {
-        "region": "SA",
+        "region": "FR",
         "property": {
           "property_value_list": [
             {
@@ -1109,7 +1109,7 @@
         }
       },
       {
-        "region": "US",
+        "region": "SA",
         "property": {
           "property_value_list": [
             {
@@ -1126,7 +1126,24 @@
         }
       },
       {
-        "region": "FR",
+        "region": "MX",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7452605711303132929",
+              "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
+              "property_value_cn": "是",
+              "property_value_en": "Yes",
+              "tts_attribute_value_id": "1000058"
+            }
+          ],
+          "property_id": "7452545444443981584",
+          "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
+          "tts_attribute_id": "102277"
+        }
+      },
+      {
+        "region": "JP",
         "property": {
           "property_value_list": [
             {
@@ -1160,7 +1177,7 @@
         }
       },
       {
-        "region": "IT",
+        "region": "US",
         "property": {
           "property_value_list": [
             {
@@ -1194,7 +1211,7 @@
         }
       },
       {
-        "region": "MX",
+        "region": "IT",
         "property": {
           "property_value_list": [
             {
@@ -1211,20 +1228,54 @@
         }
       },
       {
-        "region": "JP",
+        "region": "MX",
         "property": {
           "property_value_list": [
             {
-              "property_value_id": "7452605711303132929",
-              "property_value_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL_YES",
-              "property_value_cn": "是",
-              "property_value_en": "Yes",
-              "tts_attribute_value_id": "1000058"
+              "property_value_id": "7277494591958632193",
+              "property_value_code": "NO_PLUG",
+              "property_value_cn": "无电源插头",
+              "property_value_en": "Not Applicable (Without Plug)",
+              "tts_attribute_value_id": "1021329"
             }
           ],
-          "property_id": "7452545444443981584",
-          "property_code": "CONFIRM_ANY_REGULATORY_MARKING_OR_LABEL",
-          "tts_attribute_id": "102277"
+          "property_id": "7202070077519775489",
+          "property_code": "PLUG_TYPE",
+          "tts_attribute_id": "100113"
+        }
+      },
+      {
+        "region": "ES",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7277494591958632193",
+              "property_value_code": "NO_PLUG",
+              "property_value_cn": "无电源插头",
+              "property_value_en": "Not Applicable (Without Plug)",
+              "tts_attribute_value_id": "1021329"
+            }
+          ],
+          "property_id": "7202070077519775489",
+          "property_code": "PLUG_TYPE",
+          "tts_attribute_id": "100113"
+        }
+      },
+      {
+        "region": "US",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7277494591958632193",
+              "property_value_code": "NO_PLUG",
+              "property_value_cn": "无电源插头",
+              "property_value_en": "Not Applicable (Without Plug)",
+              "tts_attribute_value_id": "1021329"
+            }
+          ],
+          "property_id": "7202070077519775489",
+          "property_code": "PLUG_TYPE",
+          "tts_attribute_id": "100113"
         }
       },
       {
@@ -1245,24 +1296,7 @@
         }
       },
       {
-        "region": "GB",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7277494591958632193",
-              "property_value_code": "NO_PLUG",
-              "property_value_cn": "无电源插头",
-              "property_value_en": "Not Applicable (Without Plug)",
-              "tts_attribute_value_id": "1021329"
-            }
-          ],
-          "property_id": "7202070077519775489",
-          "property_code": "PLUG_TYPE",
-          "tts_attribute_id": "100113"
-        }
-      },
-      {
-        "region": "US",
+        "region": "IT",
         "property": {
           "property_value_list": [
             {
@@ -1313,41 +1347,7 @@
         }
       },
       {
-        "region": "IT",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7277494591958632193",
-              "property_value_code": "NO_PLUG",
-              "property_value_cn": "无电源插头",
-              "property_value_en": "Not Applicable (Without Plug)",
-              "tts_attribute_value_id": "1021329"
-            }
-          ],
-          "property_id": "7202070077519775489",
-          "property_code": "PLUG_TYPE",
-          "tts_attribute_id": "100113"
-        }
-      },
-      {
-        "region": "ES",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7277494591958632193",
-              "property_value_code": "NO_PLUG",
-              "property_value_cn": "无电源插头",
-              "property_value_en": "Not Applicable (Without Plug)",
-              "tts_attribute_value_id": "1021329"
-            }
-          ],
-          "property_id": "7202070077519775489",
-          "property_code": "PLUG_TYPE",
-          "tts_attribute_id": "100113"
-        }
-      },
-      {
-        "region": "MX",
+        "region": "GB",
         "property": {
           "property_value_list": [
             {
@@ -1378,40 +1378,6 @@
           "property_id": "7202070077519775489",
           "property_code": "PLUG_TYPE",
           "tts_attribute_id": "100113"
-        }
-      },
-      {
-        "region": "SA",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7202070041697060609",
-              "property_value_code": "MATERIAL_CERAMIC",
-              "property_value_cn": "陶瓷",
-              "property_value_en": "Ceramic",
-              "tts_attribute_value_id": "1000607"
-            }
-          ],
-          "property_id": "7110464130469512961",
-          "property_code": "MATERIAL",
-          "tts_attribute_id": "100701"
-        }
-      },
-      {
-        "region": "GB",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7202070041697060609",
-              "property_value_code": "MATERIAL_CERAMIC",
-              "property_value_cn": "陶瓷",
-              "property_value_en": "Ceramic",
-              "tts_attribute_value_id": "1000607"
-            }
-          ],
-          "property_id": "7110464130469512961",
-          "property_code": "MATERIAL",
-          "tts_attribute_id": "100701"
         }
       },
       {
@@ -1449,24 +1415,7 @@
         }
       },
       {
-        "region": "DE",
-        "property": {
-          "property_value_list": [
-            {
-              "property_value_id": "7202070041697060609",
-              "property_value_code": "MATERIAL_CERAMIC",
-              "property_value_cn": "陶瓷",
-              "property_value_en": "Ceramic",
-              "tts_attribute_value_id": "1000607"
-            }
-          ],
-          "property_id": "7110464130469512961",
-          "property_code": "MATERIAL",
-          "tts_attribute_id": "100701"
-        }
-      },
-      {
-        "region": "IT",
+        "region": "GB",
         "property": {
           "property_value_list": [
             {
@@ -1500,7 +1449,24 @@
         }
       },
       {
-        "region": "MX",
+        "region": "DE",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7202070041697060609",
+              "property_value_code": "MATERIAL_CERAMIC",
+              "property_value_cn": "陶瓷",
+              "property_value_en": "Ceramic",
+              "tts_attribute_value_id": "1000607"
+            }
+          ],
+          "property_id": "7110464130469512961",
+          "property_code": "MATERIAL",
+          "tts_attribute_id": "100701"
+        }
+      },
+      {
+        "region": "SA",
         "property": {
           "property_value_list": [
             {
@@ -1518,6 +1484,40 @@
       },
       {
         "region": "JP",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7202070041697060609",
+              "property_value_code": "MATERIAL_CERAMIC",
+              "property_value_cn": "陶瓷",
+              "property_value_en": "Ceramic",
+              "tts_attribute_value_id": "1000607"
+            }
+          ],
+          "property_id": "7110464130469512961",
+          "property_code": "MATERIAL",
+          "tts_attribute_id": "100701"
+        }
+      },
+      {
+        "region": "MX",
+        "property": {
+          "property_value_list": [
+            {
+              "property_value_id": "7202070041697060609",
+              "property_value_code": "MATERIAL_CERAMIC",
+              "property_value_cn": "陶瓷",
+              "property_value_en": "Ceramic",
+              "tts_attribute_value_id": "1000607"
+            }
+          ],
+          "property_id": "7110464130469512961",
+          "property_code": "MATERIAL",
+          "tts_attribute_id": "100701"
+        }
+      },
+      {
+        "region": "IT",
         "property": {
           "property_value_list": [
             {
@@ -1590,7 +1590,7 @@
             "size": "0",
             "uri": "tos-alisg-i-f7lenjegsh-sg/815ea27f178f4b4fa7239d3403492ef7",
             "urlMap": {
-              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/815ea27f178f4b4fa7239d3403492ef7~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10&x-expires=1763700299&x-signature=C1nh2PItwKV98Hf7Wu0RpW4puBE%3D"
+              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/815ea27f178f4b4fa7239d3403492ef7~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763715866\u0026x-signature=0wae256MSdMEnj6V7kaZ%2FYxGfHk%3D"
             },
             "vid": ""
           }
@@ -1637,7 +1637,7 @@
             "size": "0",
             "uri": "tos-alisg-i-f7lenjegsh-sg/73de27356ade4df8aa098da3220d3687",
             "urlMap": {
-              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/73de27356ade4df8aa098da3220d3687~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10&x-expires=1763700299&x-signature=ELelMZ7fqHLQAXBawL%2BOimVO0uY%3D"
+              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/73de27356ade4df8aa098da3220d3687~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763715866\u0026x-signature=mdWzwjQr6uG2LvVJP7r1YrdMlTw%3D"
             },
             "vid": ""
           }
@@ -1682,7 +1682,7 @@
             "size": "0",
             "uri": "tos-alisg-i-f7lenjegsh-sg/9605f20872c34a22906a824cb51416b4",
             "urlMap": {
-              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/9605f20872c34a22906a824cb51416b4~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10&x-expires=1763700299&x-signature=rP9Yj8WqbUChNzm79nUyZOzeF7w%3D"
+              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/9605f20872c34a22906a824cb51416b4~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763715866\u0026x-signature=5fV%2B950wcMFcTUzZ7TT8CQOlpMk%3D"
             },
             "vid": ""
           }
@@ -1727,7 +1727,7 @@
             "size": "0",
             "uri": "tos-alisg-i-f7lenjegsh-sg/eade2603cb3642898407c1d18f75e04a",
             "urlMap": {
-              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/eade2603cb3642898407c1d18f75e04a~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10&x-expires=1763700299&x-signature=rCQh4wMs3dUAJH9t3%2BkfW8Vc7ok%3D"
+              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/eade2603cb3642898407c1d18f75e04a~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763715866\u0026x-signature=Nr786v3hzLETTpH6PBZFu%2FFoe2I%3D"
             },
             "vid": ""
           }
@@ -1772,7 +1772,7 @@
             "size": "0",
             "uri": "tos-alisg-i-f7lenjegsh-sg/72aafc6a58b3404694eae7ffed4045d5",
             "urlMap": {
-              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/72aafc6a58b3404694eae7ffed4045d5~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10&x-expires=1763700299&x-signature=UdoSIxUJ2CPv6%2FO3e4wVsCzUey0%3D"
+              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/72aafc6a58b3404694eae7ffed4045d5~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763715866\u0026x-signature=XHjMTlKfPGwFgkKxWeNZ2yt%2B1jo%3D"
             },
             "vid": ""
           }
@@ -1817,7 +1817,7 @@
             "size": "0",
             "uri": "tos-alisg-i-f7lenjegsh-sg/f65b2dd1888940cc93fa2736d3921445",
             "urlMap": {
-              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/f65b2dd1888940cc93fa2736d3921445~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10&x-expires=1763700299&x-signature=AGaudKm%2Fq6aQzZrkN8iqdklYcVU%3D"
+              "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/f65b2dd1888940cc93fa2736d3921445~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10\u0026x-expires=1763715866\u0026x-signature=iGYPKvtflds5Hwbw4tNgKWieCEY%3D"
             },
             "vid": ""
           }
@@ -1827,103 +1827,16 @@
       "pic_set_type": 3
     },
     "grading": {},
-    "product_desc_en": "<img src=\"https://p16-she-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/16064c32d12344d9aa4677b37e479633~tplv-f7lenjegsh-origin-jpeg.jpeg?dr=16380&amp;t=168286af&amp;ps=933b5bde&amp;shp=970ba40d&amp;shcp=99349a10&amp;idc=sg1&amp;from=2534122509\" width=\"1200\" height=\"1200\">",
+    "product_desc_en": "\u003cimg src=\"https://p16-she-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/16064c32d12344d9aa4677b37e479633~tplv-f7lenjegsh-origin-jpeg.jpeg?dr=16380\u0026t=168286af\u0026ps=933b5bde\u0026shp=970ba40d\u0026shcp=99349a10\u0026idc=sg1\u0026from=2534122509\" width=\"1200\" height=\"1200\"\u003e",
+    "certifications": [],
+    "exclude_region_codes": [],
     "manufacturer_ids": [
       "67d28dc5e61b905cdd399839"
     ],
     "rp_ids": [
       "67ca66bf396fd5d6b80309cc"
     ],
-    "skc_details": [
-      {
-        "index": "0",
-        "skc_code": "S251113021083001",
-        "sale_property": {
-          "property_value_id": "7110469796013803266",
-          "tts_property_value_id": "1294488"
-        },
-        "media_info": {
-          "picture_list": [],
-          "pic_type": 2
-        },
-        "sku_details": [
-          {
-            "sku_code": "S25111302108300101",
-            "media_info": {
-              "picture_list": [
-                {
-                  "id": "931439405828",
-                  "material_show_type": 2,
-                  "link_type": 3,
-                  "order_num": "1",
-                  "material": {
-                    "extra": {
-                      "format": "jpeg",
-                      "height": "1200",
-                      "name": "",
-                      "resolution": "",
-                      "size": "261356",
-                      "target_height": "0",
-                      "target_width": "0",
-                      "uri_va": "tos-maliva-i-g9dfdl17fc-us/50ba0bcb52d04eb592af3998c4d8dade",
-                      "v_duration": "0",
-                      "width": "1200"
-                    },
-                    "id": "931439403780",
-                    "material_status": 1,
-                    "material_type": 1,
-                    "name": "",
-                    "parent_id": "0",
-                    "recognition_res": [
-                      {
-                        "actions": [],
-                        "pic_rec_id": "0",
-                        "rec_time_ms": "0",
-                        "recognitionAlgorithm": 1,
-                        "score": 0,
-                        "status": 2,
-                        "type": 0
-                      }
-                    ],
-                    "seller_id": "5765611516875867396",
-                    "shop_id": "0",
-                    "size": "0",
-                    "uri": "tos-alisg-i-f7lenjegsh-sg/50ba0bcb52d04eb592af3998c4d8dade",
-                    "urlMap": {
-                      "2": "https://p16-she-sign-sg.ibyteimg.com/tos-alisg-i-f7lenjegsh-sg/50ba0bcb52d04eb592af3998c4d8dade~tplv-f7lenjegsh-origin-webp.jpeg?rk3s=99349a10&x-expires=1763700299&x-signature=9TbRLdSdjDSpE5yaef5C46sbsJs%3D"
-                    },
-                    "vid": ""
-                  }
-                }
-              ],
-              "pic_type": 2
-            },
-            "sale_property_list": [
-              {
-                "property_value_id": "7110469796013803266",
-                "tts_property_value_id": "1294488"
-              },
-              {
-                "property_value_id": "7086047768556734213"
-              }
-            ],
-            "package_longest_length": "100",
-            "package_shortest_length": "30",
-            "package_middle_length": "100",
-            "package_weight": "98000",
-            "article_number": "TCST-3155SC-PCY",
-            "price": "1550",
-            "product_status": true,
-            "stock": "1000",
-            "supply_price_currency_type": 0,
-            "goods_in_stock": true,
-            "stock_mode": 2
-          }
-        ],
-        "article_number": "",
-        "stock_mode": 2
-      }
-    ],
+    "skc_details": null,
     "sale_property_value_list": [
       [
         {
@@ -1933,7 +1846,8 @@
       ],
       [
         {
-          "plm_property_value_id": "7086047768556734213"
+          "plm_property_value_id": "7086047768556734213",
+          "plm_tts_attribute_value_id": "1003577"
         }
       ]
     ],
