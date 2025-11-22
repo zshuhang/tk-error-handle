@@ -1,34 +1,39 @@
 package main
 
 import (
+	"bufio"
 	"context"
-	"encoding/json"
 	"errors"
 	"fmt"
-	"os"
-	"time"
-
-	// "github.com/dgrijalva/jwt-go/request"
 	"github.com/samber/lo"
-
+	"os"
+	"slices"
 	"strconv"
-
+	"time"
 	"tk-error-handle/http"
 	M "tk-error-handle/model"
 )
 
 var ctx = context.Background()
 
-var sessionId = "bfa765bd3284cededa8eed1da8ad5ea3"
+var sessionId = ""
 
 func main() {
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Printf("\n错误: %v\n", r)
+			fmt.Println("按任意键退出...")
+			bufio.NewReader(os.Stdin).ReadByte()
+		}
+	}()
+
 	fmt.Println("========================================")
 	fmt.Println("  TK商品异常处理工具")
 	fmt.Println("========================================")
 	fmt.Println()
-	fmt.Println("⚠️  注意：此脚本目前只处理图片异常，搜索出的异常数据只包含图片异常")
+	fmt.Println("注意：此脚本目前只处理图片异常，搜索出的异常数据只包含图片异常")
 	fmt.Println()
-	fmt.Println("📋 sessionId 获取步骤：")
+	fmt.Println("sessionId 获取步骤：")
 	fmt.Println("   1. 登录 TK 商家中心")
 	fmt.Println("   2. 按 F12 打开开发者工具")
 	fmt.Println("   3. 点击「应用程序」(Application)")
@@ -47,64 +52,116 @@ func main() {
 
 	fmt.Println()
 	for _, product := range products {
-		appealStatus := "--"
+		appealStatus := "------"
 		for _, item := range product.ReverseItem {
 			if item.AppealOrderInfo != nil {
-				appealStatus = "是"
+				appealStatus = "已申诉"
 				break
 			}
 		}
 		fmt.Printf("SPU:%s   申诉状态：%s   货号：%s\n", product.SpuCode, appealStatus, product.ArticleNumber)
 	}
-	fmt.Printf("查询到%d个异常待处理，按回车开始处理\n", len(products))
+	fmt.Printf("查询到%d个异常待处理，按回车开始处理（处理间隔为30秒）\n", len(products))
 	fmt.Scanln()
 
 	for _, product := range products {
 		fmt.Printf("当前处理spu %s\n", product.SpuCode)
 
-		// productDesc, RelativeTaskIds = GetProductDesc(product.SpuCode)
-		productDesc, _ := GetProductDesc(product.SpuCode)
+		productDesc, relativeTaskIds := GetProductDesc(product.SpuCode)
+		GetProductDesc(product.SpuCode)
 
 		propList, propValueList := GetCategoryRelation(strconv.FormatInt(productDesc.CategoryID, 10))
 
-		checkResult, uriToCheckResult := GetCheckProductResult(productDesc, propList, propValueList)
+		productInfo, checkResult, uriToCheckResult := GetCheckProductResult(productDesc, propList, propValueList)
 
-		// data, err := json.MarshalIndent(checkResult, "", "  ")
-		// if err != nil {
-		// 	panic(err)
-		// }
-		// os.WriteFile("qqqqq.json", data, 0644)
+		GetAppealOrder(productInfo, checkResult, uriToCheckResult, relativeTaskIds)
 
-		// data, err = json.MarshalIndent(uriToCheckResult, "", "  ")
-		// if err != nil {
-		// 	panic(err)
-		// }
-		// os.WriteFile("wwwww.json", data, 0644)
+		fmt.Printf("spu %s 已发起申诉\n", product.SpuCode)
+		fmt.Println()
 
-		// time.Sleep(30 * time.Second)
+		time.Sleep(30 * time.Second)
 	}
+
+	if len(products) == 0 {
+		fmt.Printf("\n没有查询到异常\n")
+	}
+
+	fmt.Printf("\n所有异常处理结束，程序将在10秒后自动退出...\n")
+	time.Sleep(10 * time.Second)
 }
 
 func GetProductList() []M.Product {
+	reader := bufio.NewReader(os.Stdin)
+
 	var articleNumber = ""
 	var pageNo = 1
 	var pageSize = 10
 	var excludeAppeal = 1
 
 	fmt.Print("请输入查询关键字（默认为空）: ")
-	fmt.Scanln(&articleNumber)
+	tempArticleNumber, _ := reader.ReadString('\n')
+	if len(tempArticleNumber) > 0 && tempArticleNumber[len(tempArticleNumber)-1] == '\n' {
+		tempArticleNumber = tempArticleNumber[:len(tempArticleNumber)-1]
+	}
+	if len(tempArticleNumber) > 0 && tempArticleNumber[len(tempArticleNumber)-1] == '\r' {
+		tempArticleNumber = tempArticleNumber[:len(tempArticleNumber)-1]
+	}
+	if tempArticleNumber != "" {
+		articleNumber = tempArticleNumber
+	}
 
 	fmt.Print("请输入页码（默认为1）: ")
-	fmt.Scanln(&pageNo)
+	tempPageNo, _ := reader.ReadString('\n')
+	if len(tempPageNo) > 0 && tempPageNo[len(tempPageNo)-1] == '\n' {
+		tempPageNo = tempPageNo[:len(tempPageNo)-1]
+	}
+	if len(tempPageNo) > 0 && tempPageNo[len(tempPageNo)-1] == '\r' {
+		tempPageNo = tempPageNo[:len(tempPageNo)-1]
+	}
+	if tempPageNo != "" {
+		innerPageNo, err := strconv.Atoi(tempPageNo)
+		if err != nil {
+			panic(errors.New("输入的页码不是一个合法的数字"))
+		}
+		pageNo = innerPageNo
+	}
 
-	fmt.Print("请输入每页数量（默认为10）: ")
-	fmt.Scanln(&pageSize)
+	fmt.Print("请输入每页数量（默认为10，只能为10， 20， 30， 40， 50）: ")
+	tempPageSize, _ := reader.ReadString('\n')
+	if len(tempPageSize) > 0 && tempPageSize[len(tempPageSize)-1] == '\n' {
+		tempPageSize = tempPageSize[:len(tempPageSize)-1]
+	}
+	if len(tempPageSize) > 0 && tempPageSize[len(tempPageSize)-1] == '\r' {
+		tempPageSize = tempPageSize[:len(tempPageSize)-1]
+	}
+	if tempPageSize != "" {
+		innerPageSize, err := strconv.Atoi(tempPageSize)
+		if err != nil {
+			panic(errors.New("输入的每页数量不是一个合法的数字"))
+		}
+		if innerPageSize != 10 && innerPageSize != 20 && innerPageSize != 30 && innerPageSize != 40 && innerPageSize != 50 {
+			panic(errors.New("每页数量只能为10、20、30、40或50"))
+		}
+		pageSize = innerPageSize
+	}
 
 	fmt.Print("是否要排除处于申诉状态的?（默认排除，排除：1，不排除：0）: ")
-	fmt.Scanln(&excludeAppeal)
-
-	if excludeAppeal != 1 && excludeAppeal != 0 {
-		panic(errors.New("输入内容不合法"))
+	tempExcludeAppeal, _ := reader.ReadString('\n')
+	if len(tempExcludeAppeal) > 0 && tempExcludeAppeal[len(tempExcludeAppeal)-1] == '\n' {
+		tempExcludeAppeal = tempExcludeAppeal[:len(tempExcludeAppeal)-1]
+	}
+	if len(tempExcludeAppeal) > 0 && tempExcludeAppeal[len(tempExcludeAppeal)-1] == '\r' {
+		tempExcludeAppeal = tempExcludeAppeal[:len(tempExcludeAppeal)-1]
+	}
+	if tempExcludeAppeal != "" {
+		innerExcludeAppeal, err := strconv.Atoi(tempExcludeAppeal)
+		if err != nil {
+			panic(errors.New("输入的是否要排除处于申诉状态不是一个合法的数字"))
+		}
+		if innerExcludeAppeal != 1 && innerExcludeAppeal != 0 {
+			panic(errors.New("是否要排除处于申诉状态只能为1（排除）或0（不排除）"))
+		}
+		excludeAppeal = innerExcludeAppeal
 	}
 
 	request := M.ProductListRequest{
@@ -113,7 +170,7 @@ func GetProductList() []M.Product {
 			ReverseStatus: 10,
 			ReverseType:   []int{6}, // 默认只处理图片异常
 		},
-		PageInfo: M.PageInfo{
+		PageInfo: M.PageInfoRequest{
 			PageNo:   pageNo,
 			PageSize: pageSize,
 		},
@@ -180,7 +237,7 @@ func GetCategoryRelation(categoryId string) ([]M.Prop, []M.PropValue) {
 	return response.IdRelationMap[categoryId].PropList, response.IdRelationMap[categoryId].PropValueList
 }
 
-func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propValueList []M.PropValue) ([]M.CheckResult, map[string]M.UriToCheckResult) {
+func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propValueList []M.PropValue) (M.ProductInfo, []M.CheckResult, map[string]M.UriToCheckResult) {
 	request := M.CheckProductRequest{
 		CheckOption: M.CheckOption{
 			CheckPrice:          false,
@@ -437,5 +494,54 @@ func GetCheckProductResult(productDesc M.ProductDesc, propList []M.Prop, propVal
 		panic(err)
 	}
 
-	return response.PictureCheckResult.CheckResultMap, response.PictureCheckResult.UriToCheckResultMap
+	return request.ProductInfo, response.PictureCheckResult.CheckResultMap, response.PictureCheckResult.UriToCheckResultMap
+}
+
+func GetAppealOrder(productInfo M.ProductInfo, checkResult []M.CheckResult, uriToCheckResult map[string]M.UriToCheckResult, relativeTaskIds []int64) int64 {
+	request := M.AppealOrederRequest{
+		SpuDetail:         productInfo,
+		Scene:             3, // TODO Scene 收集不到此值，默认为3
+		PicIssues:         map[string][]string{},
+		AppealPictures:    []M.AppealPicture{},
+		AppealSceneParams: M.AppealSceneParams{},
+	}
+
+	tempAppealPictures := lo.Map(checkResult, func(item M.CheckResult, _ int) M.AppealPicture {
+		appealPicture := M.AppealPicture{}
+		appealPicture.Uri = item.PictureUri
+		appealPicture.Issues = lo.FlatMap(item.RecognitionResultItems, func(el M.RecognitionResultItem, _ int) []string {
+			return lo.Map(el.Actions, func(elItem int64, _ int) string { return strconv.FormatInt(elItem, 10) })
+		})
+		appealPicture.PicType = 1
+		return appealPicture
+	})
+	appealPictures := lo.Filter(tempAppealPictures, func(item M.AppealPicture, _ int) bool {
+		if len(item.Issues) != 0 {
+			return true
+		} else {
+			return false
+		}
+	})
+	request.AppealPictures = appealPictures
+
+	for key, item := range uriToCheckResult {
+		issues := lo.FlatMap(item.RecognitionResultItems, func(el M.RecognitionResultItem, _ int) []string {
+			return lo.Map(el.Actions, func(elItem int64, _ int) string { return strconv.FormatInt(elItem, 10) })
+		})
+
+		if len(issues) != 0 && slices.Contains(lo.Map(request.AppealPictures, func(el M.AppealPicture, _ int) string { return el.Uri }), key) {
+			request.PicIssues[key] = issues
+		}
+	}
+
+	request.AppealSceneParams.FeedbackContent = struct{}{}
+	request.AppealSceneParams.ReverseTaskIds = lo.Map(relativeTaskIds, func(relativeTaskId int64, _ int) string { return strconv.FormatInt(relativeTaskId, 10) })
+
+	var response M.AppealOrederResponse
+	err := http.Request("POST", "/appeal_order/create", sessionId, ctx, &request, &response)
+	if err != nil {
+		panic(err)
+	}
+
+	return response.ID
 }

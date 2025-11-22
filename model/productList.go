@@ -2,8 +2,8 @@ package model
 
 // 请求数据
 type ProductListRequest struct {
-	Filter   Filter   `json:"filter"`
-	PageInfo PageInfo `json:"page_info"`
+	Filter   Filter          `json:"filter"`
+	PageInfo PageInfoRequest `json:"page_info"`
 }
 
 type Filter struct {
@@ -14,9 +14,9 @@ type Filter struct {
 
 // 响应数据
 type ProductListResponse struct {
-	BaseResp BaseResp  `json:"base_resp"`
-	PageInfo PageInfo  `json:"page_info"`
-	Products []Product `json:"product_reverse_items"`
+	BaseResp BaseResp         `json:"base_resp"`
+	PageInfo PageInfoResponse `json:"page_info"`
+	Products []Product        `json:"product_reverse_items"`
 }
 
 type Product struct {

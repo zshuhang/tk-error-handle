@@ -5,7 +5,12 @@ type BaseResp struct {
 	Message string `json:"message"`
 }
 
-type PageInfo struct {
+type PageInfoRequest struct {
+	PageNo   int `json:"page_no"`
+	PageSize int `json:"page_size"`
+}
+
+type PageInfoResponse struct {
 	HasMore    int `json:"has_more"`
 	PageNo     int `json:"page_no"`
 	PageSize   int `json:"page_size"`
